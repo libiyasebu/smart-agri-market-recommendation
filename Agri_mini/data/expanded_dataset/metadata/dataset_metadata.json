@@ -1,0 +1,166 @@
+{
+  "dataset_name": "Kerala Agricultural Wholesale Mandi Historical Price Dataset (1-Year)",
+  "version": "2.0.0-candidate",
+  "created_at": "2026-10-01T22:26:36.459415",
+  "purpose": "High-fidelity 1-year historical dataset for retuning price prediction models and expanding market recommendation coverage across Kerala",
+  "scope": "READ-ONLY / CANDIDATE DATASET ONLY (Production database and artifacts remain un-modified)",
+  "date_range": {
+    "start_date": "2025-08-28",
+    "end_date": "2026-08-27",
+    "calendar_days": 365,
+    "historical_horizon": "1 Full Agricultural Year (365 days)",
+    "seasons_covered": [
+      "Kharif (Virippu)",
+      "Rabi (Mundakan)",
+      "Summer (Puncha)"
+    ]
+  },
+  "geography": {
+    "state": "Kerala",
+    "districts_count": 14,
+    "districts_list": [
+      "Alappuzha",
+      "Ernakulam",
+      "Idukki",
+      "Kannur",
+      "Kasaragod",
+      "Kollam",
+      "Kottayam",
+      "Kozhikode",
+      "Malappuram",
+      "Palakkad",
+      "Pathanamthitta",
+      "Thiruvananthapuram",
+      "Thrissur",
+      "Wayanad"
+    ],
+    "total_markets_count": 42,
+    "markets_list": [
+      "Adoor Wholesale Market",
+      "Alappuzha Municipal Market",
+      "Aluva Wholesale Market",
+      "Chalakudy Wholesale Market",
+      "Changanassery Wholesale Market",
+      "Chengannur Wholesale Market",
+      "Chittur Wholesale Market",
+      "Kalpetta (Wayanad) Market",
+      "Kanhangad Wholesale Market",
+      "Kannur Central Market",
+      "Kasaragod Town Market",
+      "Kattappana Wholesale Market",
+      "Kayamkulam Market",
+      "Kochi (Ernakulam) Market",
+      "Kollam Main Wholesale Market",
+      "Kottarakkara Wholesale Market",
+      "Kottayam Central Market",
+      "Koyilandy Agricultural Market",
+      "Kozhikode Central Mandi",
+      "Kunnamkulam Market",
+      "Malappuram Town Market",
+      "Mananthavady Agricultural Market",
+      "Manjeri Wholesale Market",
+      "Muvattupuzha Agricultural Market",
+      "Nedumangad Wholesale Market",
+      "Nedumkandam Produce Market",
+      "Nileshwaram Produce Market",
+      "Ottapalam Agricultural Market",
+      "Pala Agricultural Market",
+      "Palakkad Wholesale Mandi",
+      "Parassala Agricultural Market",
+      "Pathanamthitta Town Market",
+      "Payyanur Agricultural Market",
+      "Punalur Agricultural Market",
+      "Sulthan Bathery Produce Market",
+      "Thalassery Wholesale Market",
+      "Thiruvalla Agricultural Market",
+      "Thodupuzha Agro Market",
+      "Thrissur APMC",
+      "Tirur Agricultural Market",
+      "Trivandrum APMC",
+      "Vadakara Wholesale Market"
+    ]
+  },
+  "commodities": {
+    "total_commodities_count": 10,
+    "commodities_list": [
+      "Banana",
+      "Beans",
+      "Brinjal",
+      "Cabbage",
+      "Carrot",
+      "Cucumber",
+      "Green Chilli",
+      "Onion",
+      "Potato",
+      "Tomato"
+    ],
+    "production_commodities_count": 6,
+    "candidate_new_commodities_count": 4
+  },
+  "record_statistics": {
+    "total_raw_records": 95912,
+    "total_cleaned_records": 95890,
+    "total_excluded_records": 22,
+    "cleanliness_rate_pct": 99.977,
+    "raw_sha256": "0bcecd65a4be34f6449dd4a3ca6bede12c79c20572c880b89192c69286d796be"
+  },
+  "schema_columns": [
+    {
+      "name": "state",
+      "type": "string",
+      "description": "State name (always 'Kerala')"
+    },
+    {
+      "name": "district",
+      "type": "string",
+      "description": "District in Kerala (1 of 14)"
+    },
+    {
+      "name": "market",
+      "type": "string",
+      "description": "Standardized wholesale mandi name"
+    },
+    {
+      "name": "commodity",
+      "type": "string",
+      "description": "Agricultural crop name"
+    },
+    {
+      "name": "variety",
+      "type": "string",
+      "description": "Commercial cultivar / variety specification"
+    },
+    {
+      "name": "arrival_date",
+      "type": "date (YYYY-MM-DD)",
+      "description": "Wholesale market arrival date"
+    },
+    {
+      "name": "min_price",
+      "type": "decimal (INR/quintal)",
+      "description": "Minimum recorded transaction price"
+    },
+    {
+      "name": "max_price",
+      "type": "decimal (INR/quintal)",
+      "description": "Maximum recorded transaction price"
+    },
+    {
+      "name": "modal_price",
+      "type": "decimal (INR/quintal)",
+      "description": "Modal / representative transaction price (Primary Target)"
+    },
+    {
+      "name": "source",
+      "type": "string",
+      "description": "Primary data acquisition provenance"
+    }
+  ],
+  "data_quality_verifications": {
+    "zero_null_values": true,
+    "zero_negative_or_zero_prices": true,
+    "zero_inverted_bounds": true,
+    "no_synthetic_interpolation": true,
+    "preserves_raw_source_traceability": true
+  }
+}

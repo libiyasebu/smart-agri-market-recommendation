@@ -1,0 +1,2236 @@
+{
+  "task_id": "s32_d588_Green_Chilli_2025Q2",
+  "state_id": 32,
+  "district_id": 588,
+  "district_name": "Kasaragod",
+  "commodity_name": "Green Chilli",
+  "chunk_label": "2025Q2",
+  "start_date": "2025-04-01",
+  "end_date": "2025-06-30",
+  "retrieval_timestamp": "2026-10-03T13:38:36.571262",
+  "source": "CEDA_AGMARKNET",
+  "api_endpoint": "https://api.ceda.ashoka.edu.in/v1/agmarknet/prices",
+  "record_count": 222,
+  "records": [
+    {
+      "date": "2025-04-01T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-01T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4300,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-04-01T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7500,
+      "modal_price": 6750
+    },
+    {
+      "date": "2025-04-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-04-03T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-04T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-04T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 7000,
+      "max_price": 8000,
+      "modal_price": 7500
+    },
+    {
+      "date": "2025-04-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-08T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-08T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-08T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-04-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 7000,
+      "max_price": 8000,
+      "modal_price": 7500
+    },
+    {
+      "date": "2025-04-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-13T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 7000,
+      "max_price": 8000,
+      "modal_price": 7500
+    },
+    {
+      "date": "2025-04-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-15T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-15T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 7000,
+      "max_price": 8000,
+      "modal_price": 7500
+    },
+    {
+      "date": "2025-04-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4800,
+      "max_price": 4800,
+      "modal_price": 4800
+    },
+    {
+      "date": "2025-04-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 5800,
+      "modal_price": 5400
+    },
+    {
+      "date": "2025-04-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-20T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6500
+    },
+    {
+      "date": "2025-04-21T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-21T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-22T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-22T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-22T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-24T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-24T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-24T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-25T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-25T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-25T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-27T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4000,
+      "max_price": 4600,
+      "modal_price": 4200
+    },
+    {
+      "date": "2025-04-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-04-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-04-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4000,
+      "max_price": 4600,
+      "modal_price": 4200
+    },
+    {
+      "date": "2025-04-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-04-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-03T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-03T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3600,
+      "max_price": 4200,
+      "modal_price": 3800
+    },
+    {
+      "date": "2025-05-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 3500,
+      "max_price": 3500,
+      "modal_price": 3500
+    },
+    {
+      "date": "2025-05-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3600,
+      "max_price": 4200,
+      "modal_price": 3800
+    },
+    {
+      "date": "2025-05-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 3500,
+      "max_price": 3500,
+      "modal_price": 3500
+    },
+    {
+      "date": "2025-05-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3600,
+      "max_price": 4200,
+      "modal_price": 3800
+    },
+    {
+      "date": "2025-05-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 3500,
+      "max_price": 3500,
+      "modal_price": 3500
+    },
+    {
+      "date": "2025-05-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-08T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-08T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 3500,
+      "max_price": 3500,
+      "modal_price": 3500
+    },
+    {
+      "date": "2025-05-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 3000,
+      "max_price": 3000,
+      "modal_price": 3000
+    },
+    {
+      "date": "2025-05-13T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-13T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-15T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-15T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 6000,
+      "max_price": 6600,
+      "modal_price": 6300
+    },
+    {
+      "date": "2025-05-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6200,
+      "modal_price": 5600
+    },
+    {
+      "date": "2025-05-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4600,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-05-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4000,
+      "max_price": 4600,
+      "modal_price": 4200
+    },
+    {
+      "date": "2025-05-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-20T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-05-20T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4000,
+      "max_price": 4600,
+      "modal_price": 4200
+    },
+    {
+      "date": "2025-05-20T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-21T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 5300,
+      "max_price": 5900,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-05-21T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-22T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-22T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-22T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4200,
+      "max_price": 4800,
+      "modal_price": 4400
+    },
+    {
+      "date": "2025-05-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-05-24T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-05-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-27T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-27T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-27T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-05-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-05-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-05-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 5500,
+      "modal_price": 4750
+    },
+    {
+      "date": "2025-05-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-05-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-05-31T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-01T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4200,
+      "max_price": 4800,
+      "modal_price": 4400
+    },
+    {
+      "date": "2025-06-02T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-06-03T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-03T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4200,
+      "max_price": 4800,
+      "modal_price": 4400
+    },
+    {
+      "date": "2025-06-04T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-04T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-06-04T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-05T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-06-06T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-07T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-08T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-06-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10477,
+      "min_price": 3500,
+      "max_price": 3500,
+      "modal_price": 3500
+    },
+    {
+      "date": "2025-06-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3600,
+      "max_price": 4200,
+      "modal_price": 3800
+    },
+    {
+      "date": "2025-06-09T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-06-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 6000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3600,
+      "max_price": 4200,
+      "modal_price": 3800
+    },
+    {
+      "date": "2025-06-10T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3600,
+      "max_price": 4200,
+      "modal_price": 3800
+    },
+    {
+      "date": "2025-06-11T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-12T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-13T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 6000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-13T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-13T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4500,
+      "max_price": 5000,
+      "modal_price": 4700
+    },
+    {
+      "date": "2025-06-14T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-15T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-16T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-17T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2025-06-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-18T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 5000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4000,
+      "max_price": 6000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-19T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-20T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 4800,
+      "max_price": 5400,
+      "modal_price": 5000
+    },
+    {
+      "date": "2025-06-20T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-21T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-21T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-23T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-24T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-24T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4500,
+      "max_price": 4500,
+      "modal_price": 4500
+    },
+    {
+      "date": "2025-06-25T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-25T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-25T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-26T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-27T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-06-27T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-06-28T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 4500,
+      "max_price": 6000,
+      "modal_price": 5250
+    },
+    {
+      "date": "2025-06-29T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2375,
+      "min_price": 5000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2025-06-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 2376,
+      "min_price": 3800,
+      "max_price": 4400,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-06-30T00:00:00.000Z",
+      "commodity_id": 87,
+      "census_state_id": 32,
+      "census_district_id": 588,
+      "market_id": 10476,
+      "min_price": 4000,
+      "max_price": 4000,
+      "modal_price": 4000
+    }
+  ]
+}

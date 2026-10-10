@@ -1,0 +1,72 @@
+[
+  {
+    "district_id": 588,
+    "district_name": "Kasaragod",
+    "state_id": 32
+  },
+  {
+    "district_id": 589,
+    "district_name": "Kannur",
+    "state_id": 32
+  },
+  {
+    "district_id": 590,
+    "district_name": "Wayanad",
+    "state_id": 32
+  },
+  {
+    "district_id": 591,
+    "district_name": "Kozhikode",
+    "state_id": 32
+  },
+  {
+    "district_id": 592,
+    "district_name": "Malappuram",
+    "state_id": 32
+  },
+  {
+    "district_id": 593,
+    "district_name": "Palakkad",
+    "state_id": 32
+  },
+  {
+    "district_id": 594,
+    "district_name": "Thrissur",
+    "state_id": 32
+  },
+  {
+    "district_id": 595,
+    "district_name": "Ernakulam",
+    "state_id": 32
+  },
+  {
+    "district_id": 596,
+    "district_name": "Idukki",
+    "state_id": 32
+  },
+  {
+    "district_id": 597,
+    "district_name": "Kottayam",
+    "state_id": 32
+  },
+  {
+    "district_id": 598,
+    "district_name": "Alappuzha",
+    "state_id": 32
+  },
+  {
+    "district_id": 599,
+    "district_name": "Pathanamthitta",
+    "state_id": 32
+  },
+  {
+    "district_id": 600,
+    "district_name": "Kollam",
+    "state_id": 32
+  },
+  {
+    "district_id": 601,
+    "district_name": "Thiruvananthapuram",
+    "state_id": 32
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-10-04T17:19:56.631325",
+  "weather_source": "Open-Meteo Archive API",
+  "archive_url": "https://archive-api.open-meteo.com/v1/archive",
+  "api_requests_made": 0,
+  "weather_district_count": 11,
+  "weather_date_range": {
+    "start": "2024-10-01",
+    "end": "2025-10-30"
+  },
+  "weather_rows": 4345,
+  "price_rows": 27265,
+  "matched_rows": 27265,
+  "unmatched_rows": 0,
+  "match_percentage": 100.0,
+  "missing_weather_counts": {
+    "temperature_max_c": 0,
+    "temperature_min_c": 0,
+    "temperature_mean_c": 0,
+    "humidity_mean_pct": 0,
+    "precipitation_sum_mm": 0,
+    "rain_sum_mm": 0
+  },
+  "potential_leakage_cols": [
+    "min_price",
+    "max_price",
+    "price_range",
+    "price_midpoint"
+  ]
+}

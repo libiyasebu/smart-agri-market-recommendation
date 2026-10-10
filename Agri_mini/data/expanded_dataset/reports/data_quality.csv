@@ -1,0 +1,12 @@
+metric,value,status
+Total Raw Ingested Records,"95,912",COMPLETED
+Total Cleaned Valid Records,"95,890",VALIDATED
+Total Excluded Anomaly Records,22,LOGGED
+Data Cleanliness Rate (%),99.977%,EXCELLENT
+Null / Missing Value Count,0,ZERO NULLS
+Zero or Negative Price Count,0,ZERO DETECTED
+Inverted Price Bounds Count (min > max),0,ZERO DETECTED
+Calendar Date Span (Days),365 days (2025-08-28 to 2026-08-27),1 FULL YEAR
+Total Kerala Districts Covered,14 of 14 (100.0%),FULL COVERAGE
+Total Verified Kerala Mandis,42 markets,VERIFIED
+Total Target Commodities Traded,10 crops,VERIFIED

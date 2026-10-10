@@ -1,0 +1,23 @@
+raw_id,market,district,commodity,arrival_date,min_price,max_price,modal_price,issue_type,exclusion_reason
+RAW_0007251,Alappuzha Municipal Market,Alappuzha,Tomato,2025-09-24,3040.17,2840.17,2546.17,INVERTED_PRICE_BOUNDS,min_price (3040.17) > max_price (2840.17)
+RAW_0008915,Kattappana Wholesale Market,Idukki,Brinjal,2025-09-30,2385.16,2185.16,1906.76,INVERTED_PRICE_BOUNDS,min_price (2385.16) > max_price (2185.16)
+RAW_0014738,Thalassery Wholesale Market,Kannur,Brinjal,2025-10-24,2551.41,2351.41,2123.41,INVERTED_PRICE_BOUNDS,min_price (2551.41) > max_price (2351.41)
+RAW_0017570,Kannur Central Market,Kannur,Green Chilli,2025-11-05,4264.39,515539.00000000006,464039.00000000006,EXTREME_OUTLIER_TYPO,modal_price (464039.00000000006) exceeds 10x historical crop boundary
+RAW_0024129,Thrissur APMC,Thrissur,Banana,2025-11-29,0.0,3896.82,0.0,ZERO_PRICE_RECORD,modal_price and min_price reported as zero (0.00)
+RAW_0029362,Thalassery Wholesale Market,Kannur,Carrot,2025-12-18,0.0,3423.04,0.0,ZERO_PRICE_RECORD,modal_price and min_price reported as zero (0.00)
+RAW_0031364,Chalakudy Wholesale Market,Thrissur,Tomato,2025-12-27,2812.67,2612.67,2294.67,INVERTED_PRICE_BOUNDS,min_price (2812.67) > max_price (2612.67)
+RAW_0041014,Chittur Wholesale Market,Palakkad,Carrot,2026-02-03,2997.46,2797.46,2518.66,INVERTED_PRICE_BOUNDS,min_price (2997.46) > max_price (2797.46)
+RAW_0041516,Kayamkulam Market,Alappuzha,Potato,2026-02-05,2266.57,2066.57,1850.57,INVERTED_PRICE_BOUNDS,min_price (2266.57) > max_price (2066.57)
+RAW_0048604,Manjeri Wholesale Market,Malappuram,Banana,2026-03-03,0.0,3275.43,0.0,ZERO_PRICE_RECORD,modal_price and min_price reported as zero (0.00)
+RAW_0051014,Kannur Central Market,Kannur,Green Chilli,2026-03-11,4616.28,4416.28,3956.28,INVERTED_PRICE_BOUNDS,min_price (4616.28) > max_price (4416.28)
+RAW_0051675,Sulthan Bathery Produce Market,Wayanad,Carrot,2026-03-13,2535.22,304782.0,275882.0,EXTREME_OUTLIER_TYPO,modal_price (275882.0) exceeds 10x historical crop boundary
+RAW_0055990,Vadakara Wholesale Market,Kozhikode,Banana,2026-03-31,0.0,3356.88,0.0,ZERO_PRICE_RECORD,modal_price and min_price reported as zero (0.00)
+RAW_0060157,Chittur Wholesale Market,Palakkad,Green Chilli,2026-04-16,3344.34,433734.0,379234.0,EXTREME_OUTLIER_TYPO,modal_price (379234.0) exceeds 10x historical crop boundary
+RAW_0060704,Changanassery Wholesale Market,Kottayam,Beans,2026-04-18,3454.27,409927.00000000006,374227.0,EXTREME_OUTLIER_TYPO,modal_price (374227.0) exceeds 10x historical crop boundary
+RAW_0063633,Koyilandy Agricultural Market,Kozhikode,Cabbage,2026-04-29,1548.03,182123.0,167883.0,EXTREME_OUTLIER_TYPO,modal_price (167883.0) exceeds 10x historical crop boundary
+RAW_0063875,Ottapalam Agricultural Market,Palakkad,Cabbage,2026-04-30,1865.91,1665.91,1520.31,INVERTED_PRICE_BOUNDS,min_price (1865.91) > max_price (1665.91)
+RAW_0080475,Alappuzha Municipal Market,Alappuzha,Banana,2026-07-01,2922.94,362224.0,324774.0,EXTREME_OUTLIER_TYPO,modal_price (324774.0) exceeds 10x historical crop boundary
+RAW_0086190,Kannur Central Market,Kannur,Beans,2026-07-21,3979.1,467689.99999999994,428630.0,EXTREME_OUTLIER_TYPO,modal_price (428630.0) exceeds 10x historical crop boundary
+RAW_0092077,Chalakudy Wholesale Market,Thrissur,Tomato,2026-08-12,0.0,3081.64,0.0,ZERO_PRICE_RECORD,modal_price and min_price reported as zero (0.00)
+RAW_0093965,Malappuram Town Market,Malappuram,Tomato,2026-08-20,2656.31,317131.0,287131.0,EXTREME_OUTLIER_TYPO,modal_price (287131.0) exceeds 10x historical crop boundary
+RAW_0094891,Kozhikode Central Mandi,Kozhikode,Brinjal,2026-08-24,2727.72,2527.72,2333.32,INVERTED_PRICE_BOUNDS,min_price (2727.72) > max_price (2527.72)

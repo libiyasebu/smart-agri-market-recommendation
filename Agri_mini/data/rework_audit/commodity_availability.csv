@@ -1,0 +1,17 @@
+commodity,category,status_in_current_model,ml_classification,markets_available,districts_available,records_1y_est,records_2y_est,records_3y_est,reporting_regularity,notes
+Tomato,Vegetable (Solanaceous),ACTIVE,GOOD FOR ML,35,14,8200,16400,24600,Daily High (95%+ days),"Core staple, traded daily across all Kerala wholesale markets"
+Banana,Fruit / Commercial Crop,ACTIVE,GOOD FOR ML,35,14,8100,16200,24300,Daily High (95%+ days),"Major Kerala cash crop (Robusta, Nendran, Poovan)"
+Onion,Vegetable (Bulb),ACTIVE,GOOD FOR ML,35,14,8300,16600,24900,Daily High (98%+ days),Continuous inter-state inflow and high price volatility
+Potato,Vegetable (Tuber),ACTIVE,GOOD FOR ML,35,14,8050,16100,24150,Daily High (96%+ days),Continuous staple demand and stable arrival series
+Green Chilli,Vegetable / Spice,ACTIVE,GOOD FOR ML,33,14,7600,15200,22800,Daily High (90%+ days),"High price variance, strong seasonality response"
+Cabbage,Vegetable (Brassica),ACTIVE,GOOD FOR ML,32,14,7400,14800,22200,Daily High (90%+ days),Cold-season and inter-state inflow from Tamil Nadu/Karnataka
+Brinjal (Eggplant),Vegetable (Solanaceous),CANDIDATE,GOOD FOR ML,30,14,6900,13800,20700,Frequent (85%+ days),Highly traded across major APMCs; distinct variety pricing
+Cucumber,Vegetable (Cucurbit),CANDIDATE,GOOD FOR ML,28,14,6200,12400,18600,Frequent (80%+ days),Seasonal summer spikes; regular arrivals in central Kerala
+Carrot,Vegetable (Root),CANDIDATE,GOOD FOR ML,29,14,6500,13000,19500,Frequent (85%+ days),Ooty/highland inflow; consistent commercial reporting
+Beans (French/Cowpea),Vegetable (Legume),CANDIDATE,GOOD FOR ML,28,14,6100,12200,18300,Frequent (80%+ days),"High perishability, strong candidate for spoilage-aware model"
+Tapioca (Cassava),Tuber / Staple,CANDIDATE,MODERATE DATA,22,12,4200,8400,12600,Moderate (60%+ days),High local production but informal farm-gate selling
+Ginger (Green),Spice / Commercial,CANDIDATE,MODERATE DATA,18,10,3400,6800,10200,Seasonal / Moderate (50%+ days),"High value, concentrated in Wayanad and central Kerala"
+Ladies Finger (Bhindi),Vegetable,CANDIDATE,GOOD FOR ML,27,14,5800,11600,17400,Frequent (78%+ days),Regular vegetable traded across all major district mandis
+Bitter Gourd,Vegetable (Cucurbit),CANDIDATE,MODERATE DATA,24,12,4600,9200,13800,Moderate (65%+ days),Consistent demand in local wholesale markets
+Cardamom,Spice,DISCOVERED,INSUFFICIENT DATA,4,2,650,1300,1950,Sparse / Auction-based,Auction-driven price discovery; unsuitable for daily APMC regressor
+Black Pepper,Spice,DISCOVERED,INSUFFICIENT DATA,6,4,950,1900,2850,Sparse / Periodic,Long shelf-life commodity; weekly rather than daily price shifts

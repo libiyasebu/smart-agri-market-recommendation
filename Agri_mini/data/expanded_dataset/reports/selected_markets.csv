@@ -1,0 +1,43 @@
+market,market_full_name,district,state,type,status,lat,lon,tier,ml_suitability,trading_days_pct,cleaned_1y_records,active_commodities_count
+Trivandrum APMC,Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Principal Wholesale Mandi,Active / Verified (In Current Model),8.4875,76.9486,Tier 1,EXCELLENT,0.95,2740,10
+Nedumangad Wholesale Market,Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Major Regional Mandi,Active / Verified,8.6024,77.0016,Tier 2,GOOD,0.88,2341,10
+Parassala Agricultural Market,Parassala Agricultural Market,Thiruvananthapuram,Kerala,Border Sub-Market,Active / Verified,8.3392,77.1528,Tier 3,MODERATE,0.76,1751,10
+Kollam Main Wholesale Market,Kollam Main Wholesale Market,Kollam,Kerala,Principal Wholesale Mandi,Active / Verified,8.8932,76.6141,Tier 1,EXCELLENT,0.94,2684,10
+Kottarakkara Wholesale Market,Kottarakkara Wholesale Market,Kollam,Kerala,Regional Hub,Active / Verified,8.9989,76.7725,Tier 2,GOOD,0.86,2276,10
+Punalur Agricultural Market,Punalur Agricultural Market,Kollam,Kerala,Eastern Belt Mandi,Active / Verified,9.018,76.9281,Tier 3,MODERATE,0.74,1822,10
+Pathanamthitta Town Market,Pathanamthitta Town Market,Pathanamthitta,Kerala,District Mandi,Active / Verified,9.2648,76.787,Tier 2,GOOD,0.85,2281,10
+Adoor Wholesale Market,Adoor Wholesale Market,Pathanamthitta,Kerala,Regional Mandi,Active / Verified,9.153,76.734,Tier 2,GOOD,0.83,2255,10
+Thiruvalla Agricultural Market,Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Sub-Market,Active / Verified,9.3835,76.5741,Tier 3,MODERATE,0.75,1745,10
+Alappuzha Municipal Market,Alappuzha Municipal Market,Alappuzha,Kerala,Principal Wholesale Mandi,Active / Verified,9.4981,76.3388,Tier 1,EXCELLENT,0.92,2659,10
+Chengannur Wholesale Market,Chengannur Wholesale Market,Alappuzha,Kerala,Regional Mandi,Active / Verified,9.3176,76.6111,Tier 2,GOOD,0.84,2301,10
+Kayamkulam Market,Kayamkulam Market,Alappuzha,Kerala,Sub-Market,Active / Verified,9.1724,76.5011,Tier 3,GOOD,0.8,1892,10
+Kottayam Central Market,Kottayam Central Market,Kottayam,Kerala,Principal Wholesale Mandi,Active / Verified,9.5916,76.5222,Tier 1,EXCELLENT,0.94,2743,10
+Changanassery Wholesale Market,Changanassery Wholesale Market,Kottayam,Kerala,Regional Hub,Active / Verified,9.4447,76.5377,Tier 2,GOOD,0.88,2334,10
+Pala Agricultural Market,Pala Agricultural Market,Kottayam,Kerala,Highland Sub-Market,Active / Verified,9.7118,76.6833,Tier 3,MODERATE,0.74,1749,10
+Thodupuzha Agro Market,Thodupuzha Agro Market,Idukki,Kerala,Principal Wholesale Mandi,Active / Verified,9.8959,76.7184,Tier 1,EXCELLENT,0.93,2622,10
+Nedumkandam Produce Market,Nedumkandam Produce Market,Idukki,Kerala,Highland Spice & Veg Mandi,Active / Verified,9.8427,77.1652,Tier 3,MODERATE,0.75,1739,10
+Kattappana Wholesale Market,Kattappana Wholesale Market,Idukki,Kerala,Cardamom & Produce Hub,Active / Verified,9.754,77.1218,Tier 2,GOOD,0.82,2199,10
+Kochi (Ernakulam) Market,Kochi (Ernakulam) Market,Ernakulam,Kerala,State Mega Mandi,Active / Verified (In Current Model),9.9312,76.2673,Tier 1,EXCELLENT,0.98,2827,10
+Aluva Wholesale Market,Aluva Wholesale Market,Ernakulam,Kerala,Regional Hub,Active / Verified,10.1076,76.3516,Tier 1,EXCELLENT,0.92,2503,10
+Muvattupuzha Agricultural Market,Muvattupuzha Agricultural Market,Ernakulam,Kerala,Regional Hub,Active / Verified,9.9839,76.5784,Tier 2,GOOD,0.86,2272,10
+Thrissur APMC,Thrissur APMC (Sakthan Market),Thrissur,Kerala,State Principal Mandi,Active / Verified (In Current Model),10.5276,76.2144,Tier 1,EXCELLENT,0.97,2747,10
+Chalakudy Wholesale Market,Chalakudy Wholesale Market,Thrissur,Kerala,Regional Mandi,Active / Verified,10.307,76.3335,Tier 2,GOOD,0.87,2360,10
+Kunnamkulam Market,Kunnamkulam Market,Thrissur,Kerala,Sub-Market,Active / Verified,10.6508,76.0711,Tier 3,GOOD,0.8,1748,10
+Palakkad Wholesale Mandi,Palakkad Wholesale Mandi,Palakkad,Kerala,State Principal Mandi,Active / Verified (In Current Model),10.7867,76.6548,Tier 1,EXCELLENT,0.98,2802,10
+Ottapalam Agricultural Market,Ottapalam Agricultural Market,Palakkad,Kerala,Regional Mandi,Active / Verified,10.7744,76.3779,Tier 2,GOOD,0.85,2269,10
+Chittur Wholesale Market,Chittur Wholesale Market,Palakkad,Kerala,Border Sub-Market,Active / Verified,10.7024,76.7214,Tier 3,GOOD,0.82,1960,10
+Manjeri Wholesale Market,Manjeri Wholesale Market,Malappuram,Kerala,Principal Wholesale Mandi,Active / Verified,11.1218,76.1215,Tier 1,EXCELLENT,0.94,2721,10
+Malappuram Town Market,Malappuram Town Market,Malappuram,Kerala,District Mandi,Active / Verified,11.0732,76.074,Tier 2,GOOD,0.85,2189,10
+Tirur Agricultural Market,Tirur Agricultural Market,Malappuram,Kerala,Coastal Mandi,Active / Verified,10.9146,75.9229,Tier 3,GOOD,0.81,1956,10
+Kozhikode Central Mandi,Kozhikode Central Mandi,Kozhikode,Kerala,State Principal Mandi,Active / Verified (In Current Model),11.2588,75.7804,Tier 1,EXCELLENT,0.97,2792,10
+Vadakara Wholesale Market,Vadakara Wholesale Market,Kozhikode,Kerala,Regional Hub,Active / Verified,11.6087,75.5908,Tier 2,GOOD,0.88,2354,10
+Koyilandy Agricultural Market,Koyilandy Agricultural Market,Kozhikode,Kerala,Sub-Market,Active / Verified,11.4363,75.698,Tier 3,MODERATE,0.76,1761,10
+Kalpetta (Wayanad) Market,Kalpetta (Wayanad) Market,Wayanad,Kerala,Principal Highland Mandi,Active / Verified (In Current Model),11.6854,76.132,Tier 1,EXCELLENT,0.94,2722,10
+Sulthan Bathery Produce Market,Sulthan Bathery Produce Market,Wayanad,Kerala,Tri-State Border Mandi,Active / Verified,11.6622,76.257,Tier 2,GOOD,0.86,2280,10
+Mananthavady Agricultural Market,Mananthavady Agricultural Market,Wayanad,Kerala,Regional Mandi,Active / Verified,11.8028,76.0034,Tier 3,GOOD,0.78,1825,10
+Kannur Central Market,Kannur Central Market,Kannur,Kerala,Principal Wholesale Mandi,Active / Verified,11.8745,75.3704,Tier 1,EXCELLENT,0.95,2743,10
+Thalassery Wholesale Market,Thalassery Wholesale Market,Kannur,Kerala,Regional Hub,Active / Verified,11.749,75.4891,Tier 2,GOOD,0.87,2371,10
+Payyanur Agricultural Market,Payyanur Agricultural Market,Kannur,Kerala,Sub-Market,Active / Verified,12.1024,75.2016,Tier 3,GOOD,0.8,1907,10
+Kasaragod Town Market,Kasaragod Town Market,Kasaragod,Kerala,Principal Wholesale Mandi,Active / Verified,12.5102,74.9852,Tier 1,EXCELLENT,0.93,2691,10
+Kanhangad Wholesale Market,Kanhangad Wholesale Market,Kasaragod,Kerala,Regional Hub,Active / Verified,12.3082,75.091,Tier 2,GOOD,0.85,2276,10
+Nileshwaram Produce Market,Nileshwaram Produce Market,Kasaragod,Kerala,Sub-Market,Active / Verified,12.2533,75.1328,Tier 3,MODERATE,0.74,1681,10

@@ -1,0 +1,666 @@
+{
+  "task_id": "s32_d595_Sweet_Potato_2024Q4",
+  "state_id": 32,
+  "district_id": 595,
+  "district_name": "Ernakulam",
+  "commodity_name": "Sweet Potato",
+  "chunk_label": "2024Q4",
+  "start_date": "2024-10-01",
+  "end_date": "2024-12-31",
+  "retrieval_timestamp": "2026-10-03T15:03:51.285367",
+  "source": "CEDA_AGMARKNET",
+  "api_endpoint": "https://api.ceda.ashoka.edu.in/v1/agmarknet/prices",
+  "record_count": 65,
+  "records": [
+    {
+      "date": "2024-10-01T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-03T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-04T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-05T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-07T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-08T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-09T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-10T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-11T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-14T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-15T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-16T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-17T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-18T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-19T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-21T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-22T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-23T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-24T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-25T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-26T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-28T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-29T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-10-30T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-11-01T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-11-02T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-11-04T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 5000,
+      "max_price": 6000,
+      "modal_price": 5500
+    },
+    {
+      "date": "2024-11-05T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-11-06T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-11-07T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-11-08T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-11-11T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-11-12T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2024-11-13T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2024-11-14T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2024-11-15T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-16T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-18T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-19T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-20T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-21T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-22T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3000,
+      "max_price": 4000,
+      "modal_price": 3500
+    },
+    {
+      "date": "2024-11-25T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3000,
+      "max_price": 4000,
+      "modal_price": 3500
+    },
+    {
+      "date": "2024-11-26T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-27T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-28T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-29T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-30T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-02T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-03T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-04T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-05T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-06T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-07T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-09T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 6500,
+      "max_price": 7500,
+      "modal_price": 7000
+    },
+    {
+      "date": "2024-12-10T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-11T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-12T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 3500,
+      "max_price": 4500,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-12-13T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2024-12-24T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2024-12-26T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4500
+    },
+    {
+      "date": "2024-12-27T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-12-28T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-12-30T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-12-31T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 595,
+      "market_id": 4391,
+      "min_price": 4500,
+      "max_price": 5500,
+      "modal_price": 5000
+    }
+  ]
+}

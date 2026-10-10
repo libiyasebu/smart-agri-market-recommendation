@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agri_mini — Agricultural Decision-Support & Price Prediction System</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- App Wrapper -->
+  <div class="app-wrapper">
+
+    <!-- Top Navigation / Header -->
+    <header class="app-header">
+      <div class="header-container">
+        <div class="brand-group">
+          <div class="brand-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+              <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+            </svg>
+          </div>
+          <div>
+            <div class="brand-badge-row">
+              <span class="system-badge">AgriDecision AI</span>
+              <span id="backend-status-pill" class="status-pill checking">
+                <span class="status-dot"></span>
+                <span id="status-text">Checking Backend...</span>
+              </span>
+            </div>
+            <h1 class="app-title">AI Agricultural Price Prediction & Decision-Support System</h1>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <a href="/docs" target="_blank" class="docs-link" title="Open FastAPI Swagger Documentation">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/>
+              <path d="M6 6h10"/>
+              <path d="M6 10h10"/>
+            </svg>
+            <span>API Docs</span>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Subtitle Description Bar -->
+      <div class="header-subtitle-bar">
+        <p class="app-subtitle">
+          End-to-end agro-logistics platform integrating machine learning price forecasting, OSRM road freight costing, Open-Meteo transit spoilage risk, and TOPSIS multi-market ranking.
+        </p>
+      </div>
+    </header>
+
+    <!-- Main Navigation Tabs -->
+    <div class="nav-tabs-wrapper">
+      <div class="nav-tabs-container">
+        <nav class="workflow-tabs" role="tablist">
+          <button type="button" class="tab-btn active" id="tab-prediction" data-tab="prediction-view" role="tab" aria-selected="true">
+            <span class="tab-icon">📈</span>
+            <div class="tab-text">
+              <span class="tab-title">Price Forecast</span>
+              <span class="tab-desc">Single-market modal price prediction</span>
+            </div>
+          </button>
+          <button type="button" class="tab-btn" id="tab-recommendation" data-tab="recommendation-view" role="tab" aria-selected="false">
+            <span class="tab-icon">🎯</span>
+            <div class="tab-text">
+              <span class="tab-title">Smart Market Recommendation</span>
+              <span class="tab-desc">TOPSIS multi-market comparison & profit ranking</span>
+            </div>
+          </button>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Main Content Layout -->
+    <main class="main-content">
+
+      <!-- Alert / Notification Banner -->
+      <div id="alert-banner" class="alert-banner hidden" role="alert">
+        <div class="alert-icon" id="alert-icon">⚠️</div>
+        <div class="alert-content">
+          <div class="alert-title" id="alert-title">Notification</div>
+          <div class="alert-message" id="alert-message">Message details</div>
+        </div>
+        <button type="button" class="alert-close" id="alert-close" aria-label="Close notification">&times;</button>
+      </div>
+
+      <!-- ================================================================= -->
+      <!-- VIEW 1: STANDALONE PRICE PREDICTION WORKFLOW (PRESERVED)           -->
+      <!-- ================================================================= -->
+      <div id="prediction-view" class="tab-view active">
+        
+        <!-- Quick Presets Bar -->
+        <section class="presets-section" aria-label="Sample Test Presets">
+          <span class="presets-label">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+            </svg>
+            Quick Presets:
+          </span>
+          <div class="presets-buttons">
+            <button type="button" class="preset-btn active" data-preset="tomato_thrissur">
+              🍅 Tomato (Thrissur APMC)
+            </button>
+            <button type="button" class="preset-btn" data-preset="onion_chalakudy">
+              🧅 Onion (Chalakudy)
+            </button>
+            <button type="button" class="preset-btn" data-preset="banana_kunnamkulam">
+              🍌 Banana (Kunnamkulam)
+            </button>
+            <button type="button" class="preset-btn" data-preset="potato_kodungallur">
+              🥔 Potato (Kodungallur)
+            </button>
+          </div>
+        </section>
+
+        <!-- Two-Column Grid: Left = Input Form, Right = Prediction Results -->
+        <div class="dashboard-grid">
+
+          <!-- Column 1: Prediction Form Card -->
+          <div class="card form-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon form-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                    <polyline points="14 2 14 8 20 8"/>
+                    <line x1="16" y1="13" x2="8" y2="13"/>
+                    <line x1="16" y1="17" x2="8" y2="17"/>
+                    <polyline points="10 9 9 9 8 9"/>
+                  </svg>
+                </div>
+                <div>
+                  <h2 class="card-title">Price Forecast Parameters</h2>
+                  <p class="card-subtitle">Select commodity, target market, and arrival date</p>
+                </div>
+              </div>
+              <button type="button" id="reset-form-btn" class="text-btn" title="Reset to default">Reset</button>
+            </div>
+
+            <form id="prediction-form" class="prediction-form" novalidate>
+              
+              <!-- Commodity & Variety Row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="commodity-input">
+                    Commodity <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🌾</span>
+                    <input
+                      type="text"
+                      id="commodity-input"
+                      name="commodity"
+                      list="commodity-datalist"
+                      placeholder="e.g. Tomato"
+                      required
+                      autocomplete="off"
+                    >
+                    <datalist id="commodity-datalist">
+                      <option value="Tomato">
+                      <option value="Onion">
+                      <option value="Potato">
+                      <option value="Green Chilli">
+                      <option value="Cabbage">
+                      <option value="Banana">
+                    </datalist>
+                  </div>
+                  <span class="field-hint">Agricultural produce name</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="variety-input">
+                    Variety <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🌱</span>
+                    <input
+                      type="text"
+                      id="variety-input"
+                      name="variety"
+                      list="variety-datalist"
+                      placeholder="e.g. Hybrid"
+                      required
+                      autocomplete="off"
+                    >
+                    <datalist id="variety-datalist">
+                      <option value="Hybrid">
+                      <option value="Local">
+                      <option value="Red / Nasik">
+                      <option value="Jyoti">
+                      <option value="Standard">
+                      <option value="Robusta">
+                    </datalist>
+                  </div>
+                  <span class="field-hint">Crop cultivar / grade</span>
+                </div>
+              </div>
+
+              <!-- Market Mandi & District Row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="market-input">
+                    Market Mandi <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🏛️</span>
+                    <input
+                      type="text"
+                      id="market-input"
+                      name="market"
+                      list="market-datalist"
+                      placeholder="e.g. Thrissur APMC"
+                      required
+                      autocomplete="off"
+                    >
+                    <datalist id="market-datalist">
+                      <option value="Thrissur APMC">
+                      <option value="Chalakudy Wholesale Market">
+                      <option value="Kunnamkulam Market">
+                      <option value="Kodungallur Market">
+                    </datalist>
+                  </div>
+                  <span class="field-hint">APMC / wholesale mandi</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="district-input">
+                    District <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">📍</span>
+                    <input
+                      type="text"
+                      id="district-input"
+                      name="district"
+                      list="district-datalist"
+                      placeholder="e.g. Thrissur"
+                      required
+                      autocomplete="off"
+                    >
+                    <datalist id="district-datalist">
+                      <option value="Thrissur">
+                    </datalist>
+                  </div>
+                  <span class="field-hint">Mandi district jurisdiction</span>
+                </div>
+              </div>
+
+              <!-- State & Prediction Date Row -->
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="state-input">
+                    State <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🗺️</span>
+                    <input
+                      type="text"
+                      id="state-input"
+                      name="state"
+                      value="Kerala"
+                      placeholder="e.g. Kerala"
+                      required
+                      autocomplete="off"
+                    >
+                  </div>
+                  <span class="field-hint">State / Territory</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="prediction-date-input">
+                    Target Prediction Date <span class="required">*</span>
+                  </label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">📅</span>
+                    <input
+                      type="date"
+                      id="prediction-date-input"
+                      name="prediction_date"
+                      required
+                    >
+                  </div>
+                  <span class="field-hint">Future market arrival date</span>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="form-actions">
+                <button type="submit" id="predict-btn" class="btn btn-primary btn-block">
+                  <span class="btn-spinner hidden" id="btn-spinner"></span>
+                  <svg id="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                  </svg>
+                  <span id="btn-label">Predict Expected Modal Price</span>
+                </button>
+              </div>
+
+              <!-- Model Info Footer -->
+              <div class="form-footer-info">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="16" x2="12" y2="12"/>
+                  <line x1="12" y1="8" x2="12.01" y2="8"/>
+                </svg>
+                <span>Executes real-time inference via <code>POST /api/v1/predict/price</code> with historical lag features, weather, FAOSTAT & route integration.</span>
+              </div>
+            </form>
+          </div>
+
+          <!-- Column 2: Results & Insights Column -->
+          <div class="results-column">
+
+            <!-- Initial / Empty State Placeholder -->
+            <div id="empty-state" class="card empty-state-card">
+              <div class="empty-state-graphic">
+                <div class="pulse-ring"></div>
+                <div class="graphic-icon">📊</div>
+              </div>
+              <h3 class="empty-state-title">Ready for Agricultural Price Forecasting</h3>
+              <p class="empty-state-text">
+                Select or customize your crop parameters on the left and click <strong>Predict Expected Modal Price</strong> to run live ML inference.
+              </p>
+              <div class="sample-prompt">
+                <span>Verified Test Case Ready:</span>
+                <code>Tomato &bull; Thrissur APMC &bull; Hybrid &bull; 2026-08-28</code>
+              </div>
+            </div>
+
+            <!-- Loading State Indicator -->
+            <div id="loading-state" class="card loading-state-card hidden">
+              <div class="loading-animation">
+                <div class="spinner-large"></div>
+              </div>
+              <h3 class="loading-title">Calculating Price Forecast...</h3>
+              <p class="loading-subtitle" id="loading-step-text">
+                Deriving leakage-free historical lags and evaluating 54 multi-source features...
+              </p>
+              <div class="loading-progress-bar">
+                <div class="progress-bar-fill"></div>
+              </div>
+            </div>
+
+            <!-- Active Results Card (Initially Hidden) -->
+            <div id="results-card" class="card results-card hidden">
+              
+              <!-- Result Card Header -->
+              <div class="card-header border-bottom">
+                <div class="card-title-group">
+                  <div class="card-icon success-icon">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="20 6 9 17 4 12"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="card-title">Prediction Result</h2>
+                    <p class="card-subtitle" id="res-timestamp">Inference completed just now</p>
+                  </div>
+                </div>
+                <span class="badge badge-success" id="res-status-badge">HTTP 200 &bull; Verified</span>
+              </div>
+
+              <!-- Hero Price Display Section -->
+              <div class="hero-price-section">
+                <div class="hero-label">Predicted Expected Modal Price</div>
+                <div class="hero-price-row">
+                  <span class="currency-symbol">₹</span>
+                  <span class="price-value" id="res-predicted-price">0,000.00</span>
+                  <span class="price-unit">/ quintal</span>
+                </div>
+                <div class="hero-price-kg-row" id="res-hero-price-kg-row">
+                  <span class="currency-symbol-kg">₹</span>
+                  <span class="price-value-kg" id="res-hero-price-kg">00.00</span>
+                  <span class="price-unit-kg">/ kg</span>
+                </div>
+                <div class="hero-submetrics">
+                  <div class="submetric-item">
+                    <span class="submetric-label">Per Kilogram:</span>
+                    <span class="submetric-value" id="res-price-per-kg">₹ 00.00 / kg</span>
+                  </div>
+                  <div class="submetric-divider"></div>
+                  <div class="submetric-item">
+                    <span class="submetric-label">Latest Known Price:</span>
+                    <span class="submetric-value" id="res-latest-price">₹ 0,000.00 / qtl</span>
+                    <span class="submetric-sub" id="res-latest-price-kg" style="font-size:0.8rem;color:var(--neutral-500);font-weight:600;">(₹ 00.00 / kg)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Context Integration Data-Sources Status Card -->
+              <div class="section-container">
+                <div class="section-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                  </svg>
+                  Multi-Source Context Integration
+                </div>
+                
+                <div class="context-badges-grid">
+                  <!-- Weather Indicator -->
+                  <div class="context-badge-card" id="context-weather-card">
+                    <div class="context-header">
+                      <span class="context-icon">🌦️</span>
+                      <span class="context-name">Agro-Weather</span>
+                    </div>
+                    <div class="context-status-row">
+                      <span class="context-pill" id="badge-weather">Matched</span>
+                    </div>
+                    <div class="context-desc">Open-Meteo temperature, humidity & rainfall forecast</div>
+                  </div>
+
+                  <!-- FAOSTAT Indicator -->
+                  <div class="context-badge-card" id="context-faostat-card">
+                    <div class="context-header">
+                      <span class="context-icon">📈</span>
+                      <span class="context-name">FAOSTAT Macro</span>
+                    </div>
+                    <div class="context-status-row">
+                      <span class="context-pill" id="badge-faostat">Matched</span>
+                    </div>
+                    <div class="context-desc">National production, yield & harvested area indicators</div>
+                  </div>
+
+                  <!-- Route Logistics Indicator -->
+                  <div class="context-badge-card" id="context-route-card">
+                    <div class="context-header">
+                      <span class="context-icon">🚚</span>
+                      <span class="context-name">Road Logistics</span>
+                    </div>
+                    <div class="context-status-row">
+                      <span class="context-pill" id="badge-route">Matched</span>
+                    </div>
+                    <div class="context-desc">OSRM driving distance & travel duration features</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Model & Feature Engineering Breakdown Grid -->
+              <div class="section-container">
+                <div class="section-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                  </svg>
+                  Inference & Model Specifications
+                </div>
+
+                <div class="specs-grid">
+                  <div class="spec-card">
+                    <span class="spec-label">Model Architecture</span>
+                    <span class="spec-value highlight" id="res-model-used">Random Forest (Tuned)</span>
+                  </div>
+                  <div class="spec-card">
+                    <span class="spec-label">Features Evaluated</span>
+                    <span class="spec-value" id="res-features-count">54 Features</span>
+                  </div>
+                  <div class="spec-card">
+                    <span class="spec-label">Historical Points Used</span>
+                    <span class="spec-value" id="res-hist-points">14 Records</span>
+                  </div>
+                  <div class="spec-card">
+                    <span class="spec-label">Prediction Target</span>
+                    <span class="spec-value">Modal Price (INR/qtl)</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Forecast Crop & Market Details -->
+              <div class="section-container">
+                <div class="section-title">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                    <path d="M2 12h20"/>
+                  </svg>
+                  Market & Agricultural Details
+                </div>
+
+                <div class="details-table-wrapper">
+                  <table class="details-table">
+                    <tbody>
+                      <tr>
+                        <th>Commodity & Variety</th>
+                        <td><strong id="res-commodity-variety">Tomato (Hybrid)</strong></td>
+                        <th>Target Arrival Date</th>
+                        <td id="res-arrival-date">2026-08-28</td>
+                      </tr>
+                      <tr>
+                        <th>Market Mandi</th>
+                        <td id="res-market">Thrissur APMC</td>
+                        <th>District & State</th>
+                        <td id="res-district-state">Thrissur, Kerala</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- ================================================================= -->
+      <!-- VIEW 2: SMART MARKET RECOMMENDATION WORKFLOW (PHASE 11)           -->
+      <!-- ================================================================= -->
+      <div id="recommendation-view" class="tab-view hidden">
+
+        <!-- Demo Presets Bar for Recommendation -->
+        <section class="presets-section" aria-label="Recommendation Demo Presets">
+          <span class="presets-label">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/>
+            </svg>
+            Recommendation Scenario:
+          </span>
+          <div class="presets-buttons">
+            <button type="button" class="preset-btn active" id="rec-preset-tomato-thrissur">
+              🍅 Tomato (Thrissur Farm &bull; 4 Mandis &bull; 1000 kg)
+            </button>
+            <button type="button" class="preset-btn" id="rec-preset-banana-thrissur">
+              🍌 Banana (Thrissur Farm &bull; 3 Mandis &bull; 1000 kg)
+            </button>
+          </div>
+        </section>
+
+        <!-- Two-Column Grid: Left = Recommendation Form, Right = Recommendation Results -->
+        <div class="dashboard-grid">
+
+          <!-- Left Column: Recommendation Parameters Form Card -->
+          <div class="card form-card">
+            <div class="card-header">
+              <div class="card-title-group">
+                <div class="card-icon form-icon">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                  </svg>
+                </div>
+                <div>
+                  <h2 class="card-title">Shipment & Logistics Parameters</h2>
+                  <p class="card-subtitle">Specify farm origin, harvest quantity, vehicle, and candidate markets</p>
+                </div>
+              </div>
+              <button type="button" id="reset-rec-form-btn" class="text-btn" title="Reset to default">Reset</button>
+            </div>
+
+            <form id="recommendation-form" class="recommendation-form" novalidate>
+
+              <!-- Section 1: Crop & Date -->
+              <div class="form-section-header">
+                <span class="section-step">1</span>
+                <span>Crop & Arrival Date</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="rec-commodity-select">Commodity <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🌾</span>
+                    <select id="rec-commodity-select" name="commodity_id" required>
+                      <option value="19">🍌 Banana</option>
+                      <option value="90">🍌 Banana-Green</option>
+                      <option value="78" selected>🍅 Tomato</option>
+                      <option value="23">🧅 Onion</option>
+                      <option value="24">🥔 Potato</option>
+                      <option value="87">🌶️ Green Chilli</option>
+                      <option value="154">🥬 Cabbage</option>
+                    </select>
+                  </div>
+                  <span class="field-hint">Select crop commodity</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="rec-date-input">Selling Date <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">📅</span>
+                    <input type="date" id="rec-date-input" name="prediction_date" value="2025-10-15" required>
+                  </div>
+                  <span class="field-hint">Target market date</span>
+                </div>
+              </div>
+
+              <!-- Section 2: Farm Origin Location -->
+              <div class="form-section-header">
+                <span class="section-step">2</span>
+                <span>Farm Origin Coordinates</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group span-full">
+                  <label for="rec-origin-name-input">Origin Name / Address</label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🏡</span>
+                    <input type="text" id="rec-origin-name-input" name="origin_name" value="Thrissur, Kerala" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="rec-origin-lat-input">Origin Latitude <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🌐</span>
+                    <input type="number" id="rec-origin-lat-input" name="origin_lat" step="0.0001" value="10.5276" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="rec-origin-lon-input">Origin Longitude <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🌐</span>
+                    <input type="number" id="rec-origin-lon-input" name="origin_lon" step="0.0001" value="76.2144" required>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 3: Shipment Logistics & Costs -->
+              <div class="form-section-header">
+                <span class="section-step">3</span>
+                <span>Logistics & Cultivation Economics</span>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="rec-quantity-input">Quantity (kg) <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">⚖️</span>
+                    <input type="number" id="rec-quantity-input" name="quantity_kg" min="1" step="1" value="1000" required>
+                  </div>
+                  <span class="field-hint" id="rec-quintals-hint">10.0 quintals</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="rec-vehicle-input">Vehicle Profile <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">🚛</span>
+                    <select id="rec-vehicle-input" name="vehicle_type" required>
+                      <option value="three_wheeler">Three-Wheeler Cargo Auto</option>
+                      <option value="mini_truck" selected>Mini Truck</option>
+                      <option value="pickup">Pickup</option>
+                      <option value="medium_truck">Medium Truck</option>
+                      <option value="large_truck">Large Truck</option>
+                    </select>
+                  </div>
+                  <span class="field-hint" id="rec-vehicle-hint">Suggested: Mini Truck for 1000 kg</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="rec-fuel-price-input">Fuel Price (₹/L)</label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">⛽</span>
+                    <input type="number" id="rec-fuel-price-input" name="fuel_price_per_litre" step="0.5" value="95.0">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="rec-production-cost-input">Cultivation Cost (₹, Optional)</label>
+                  <div class="input-wrapper">
+                    <span class="input-icon">💰</span>
+                    <input type="number" id="rec-production-cost-input" name="production_cost" step="100" value="12000" placeholder="e.g. 12000">
+                  </div>
+                  <span class="field-hint">Enables true accounting profit calculation</span>
+                </div>
+              </div>
+
+              <!-- Section 4: Candidate Mandis Selection -->
+              <div class="form-section-header">
+                <span class="section-step">4</span>
+                <span>Select Candidate Markets (Min 2, Max 10)</span>
+                <span class="selected-count-badge" id="selected-markets-count">4 Selected</span>
+              </div>
+
+              <!-- NOTE: Markets shown here have genuine CEDA data (market_id, district_id from AGMARKNET). -->
+              <!-- Coordinates are verified Kerala district trading hub coordinates (not invented).           -->
+              <div class="candidate-markets-container" id="candidate-markets-list">
+
+                <!-- Thrissur APMC (Sakthan Market) (market_id=147, district_id=594, Thrissur) -->
+                <label class="candidate-market-card selected">
+                  <input type="checkbox" class="candidate-market-checkbox" checked
+                    data-market-id="147" data-district-id="594"
+                    data-market-name="Thrissur APMC (Sakthan Market)"
+                    data-lat="10.5276" data-lon="76.2144">
+                  <div class="candidate-market-details">
+                    <div class="candidate-name">Thrissur APMC (Sakthan Market)</div>
+                    <div class="candidate-meta">📍 Thrissur District (ID 594) &bull; market_id 147</div>
+                  </div>
+                  <span class="candidate-check-icon">✓</span>
+                </label>
+
+                <!-- Chalakudy Wholesale Market (market_id=2152, district_id=594, Thrissur) -->
+                <label class="candidate-market-card selected">
+                  <input type="checkbox" class="candidate-market-checkbox" checked
+                    data-market-id="2152" data-district-id="594"
+                    data-market-name="Chalakudy Wholesale Market"
+                    data-lat="10.3070" data-lon="76.3335">
+                  <div class="candidate-market-details">
+                    <div class="candidate-name">Chalakudy Wholesale Market</div>
+                    <div class="candidate-meta">📍 Thrissur District (ID 594) &bull; market_id 2152</div>
+                  </div>
+                  <span class="candidate-check-icon">✓</span>
+                </label>
+
+                <!-- Kunnamkulam Market (market_id=2366, district_id=594, Thrissur) -->
+                <label class="candidate-market-card selected">
+                  <input type="checkbox" class="candidate-market-checkbox" checked
+                    data-market-id="2366" data-district-id="594"
+                    data-market-name="Kunnamkulam Market"
+                    data-lat="10.6508" data-lon="76.0711">
+                  <div class="candidate-market-details">
+                    <div class="candidate-name">Kunnamkulam Market</div>
+                    <div class="candidate-meta">📍 Thrissur District (ID 594) &bull; market_id 2366</div>
+                  </div>
+                  <span class="candidate-check-icon">✓</span>
+                </label>
+
+                <!-- Kodungallur Market (market_id=2364, district_id=594, Thrissur) -->
+                <label class="candidate-market-card selected">
+                  <input type="checkbox" class="candidate-market-checkbox" checked
+                    data-market-id="2364" data-district-id="594"
+                    data-market-name="Kodungallur Market"
+                    data-lat="10.2216" data-lon="76.1953">
+                  <div class="candidate-market-details">
+                    <div class="candidate-name">Kodungallur Market</div>
+                    <div class="candidate-meta">📍 Thrissur District (ID 594) &bull; market_id 2364</div>
+                  </div>
+                  <span class="candidate-check-icon">✓</span>
+                </label>
+
+              </div>
+
+              <!-- Section 5: Advanced Decision Priorities (TOPSIS Weights) -->
+              <div class="collapsible-section">
+                <button type="button" class="collapsible-toggle" id="toggle-weights-btn" aria-expanded="false">
+                  <span class="toggle-icon">⚙️</span>
+                  <span class="toggle-title">Adjust Decision Priorities (TOPSIS Weights)</span>
+                  <span class="toggle-arrow">▼</span>
+                </button>
+
+                <div class="collapsible-body hidden" id="weights-body">
+                  <p class="weights-note">
+                    Configure multi-criteria priority weights. Weights must sum to 100%.
+                  </p>
+                  
+                  <div class="weight-control-row">
+                    <label>Expected Profit / Net Return: <strong id="weight-profit-val">40%</strong></label>
+                    <input type="range" id="weight-profit-input" min="5" max="80" step="5" value="40" class="weight-slider">
+                  </div>
+
+                  <div class="weight-control-row">
+                    <label>Predicted Selling Price: <strong id="weight-price-val">20%</strong></label>
+                    <input type="range" id="weight-price-input" min="5" max="80" step="5" value="20" class="weight-slider">
+                  </div>
+
+                  <div class="weight-control-row">
+                    <label>Transportation Freight Cost: <strong id="weight-cost-val">15%</strong></label>
+                    <input type="range" id="weight-cost-input" min="5" max="80" step="5" value="15" class="weight-slider">
+                  </div>
+
+                  <div class="weight-control-row">
+                    <label>Transit Travel Duration: <strong id="weight-time-val">10%</strong></label>
+                    <input type="range" id="weight-time-input" min="5" max="80" step="5" value="10" class="weight-slider">
+                  </div>
+
+                  <div class="weight-control-row">
+                    <label>Transit Spoilage Loss Risk: <strong id="weight-spoil-val">15%</strong></label>
+                    <input type="range" id="weight-spoil-input" min="5" max="80" step="5" value="15" class="weight-slider">
+                  </div>
+
+                  <div class="weights-footer">
+                    <span id="weights-total-badge" class="badge badge-success">Total: 100%</span>
+                    <button type="button" id="reset-weights-btn" class="text-btn">Reset Default Weights</button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Recommendation Submit Button -->
+              <div class="form-actions">
+                <button type="submit" id="recommend-btn" class="btn btn-primary btn-block">
+                  <span class="btn-spinner hidden" id="rec-btn-spinner"></span>
+                  <svg id="rec-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                  </svg>
+                  <span id="rec-btn-label">Evaluate & Recommend Best Market</span>
+                </button>
+              </div>
+
+              <!-- Recommendation Footer Info -->
+              <div class="form-footer-info">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="16" x2="12" y2="12"/>
+                  <line x1="12" y1="8" x2="12.01" y2="8"/>
+                </svg>
+                <span>Orchestrates price predictions, OSRM routes, weather spoilage & TOPSIS vector normalization via <code>POST /api/v1/recommend/markets</code>.</span>
+              </div>
+
+            </form>
+          </div>
+
+          <!-- Right Column: Recommendation Results Column -->
+          <div class="results-column">
+
+            <!-- Empty State for Recommendation -->
+            <div id="rec-empty-state" class="card empty-state-card">
+              <div class="empty-state-graphic">
+                <div class="pulse-ring"></div>
+                <div class="graphic-icon">🎯</div>
+              </div>
+              <h3 class="empty-state-title">Multi-Market Decision Support</h3>
+              <p class="empty-state-text">
+                Select your shipment details and candidate markets on the left, then click <strong>Evaluate & Recommend Best Market</strong> to compute TOPSIS rankings.
+              </p>
+              <div class="sample-prompt">
+                <span>Phase 10 Benchmark Ready:</span>
+                <code>Tomato &bull; 1000 kg &bull; Thrissur vs Chalakudy vs Kunnamkulam vs Kodungallur</code>
+              </div>
+            </div>
+
+            <!-- Loading State for Recommendation -->
+            <div id="rec-loading-state" class="card loading-state-card hidden">
+              <div class="loading-animation">
+                <div class="spinner-large"></div>
+              </div>
+              <h3 class="loading-title">Evaluating Candidate Markets...</h3>
+              <p class="loading-subtitle" id="rec-loading-step-text">
+                Forecasting prices, routing road logistics, computing spoilage risks, and executing TOPSIS vector normalization...
+              </p>
+              <div class="loading-progress-bar">
+                <div class="progress-bar-fill"></div>
+              </div>
+            </div>
+
+            <!-- Recommendation Results Container (Initially Hidden) -->
+            <div id="rec-results-container" class="rec-results-wrapper hidden">
+
+              <!-- HERO CARD: TOP RECOMMENDED MARKET -->
+              <div class="card rec-hero-card">
+                <div class="rec-hero-header">
+                  <div class="rec-hero-badge-row">
+                    <span class="badge badge-gold-solid">🏆 TOP RECOMMENDATION (RANK #1)</span>
+                    <span class="topsis-score-pill">
+                      TOPSIS Score: <strong id="rec-hero-topsis-score">0.9864</strong>
+                    </span>
+                  </div>
+                  <h2 class="rec-hero-title" id="rec-hero-market-name">Thrissur APMC</h2>
+                  <p class="rec-hero-location" id="rec-hero-location">📍 Thrissur District, Kerala</p>
+                </div>
+
+                <!-- Hero Financial Highlight -->
+                <div class="rec-hero-financial-banner">
+                  <div class="financial-block">
+                    <span class="fin-label" id="rec-hero-profit-label">Expected Net Profit</span>
+                    <div class="fin-value-row">
+                      <span class="currency-symbol">₹</span>
+                      <span class="fin-amount" id="rec-hero-profit-val">8,542.46</span>
+                    </div>
+                  </div>
+                  <div class="fin-divider"></div>
+                  <div class="financial-block">
+                    <span class="fin-label">Predicted Modal Price</span>
+                    <div class="fin-value-row">
+                      <span class="currency-symbol">₹</span>
+                      <span class="fin-amount-sm" id="rec-hero-price-val">2,345.19</span>
+                      <span class="fin-unit">/ qtl</span>
+                    </div>
+                    <div class="fin-value-subrow">
+                      <span class="currency-symbol-sub">₹</span>
+                      <span class="fin-amount-sub" id="rec-hero-price-kg-val">23.45</span>
+                      <span class="fin-unit-sub">/ kg</span>
+                    </div>
+                  </div>
+                  <div class="fin-divider"></div>
+                  <div class="financial-block">
+                    <span class="fin-label">Freight Expense</span>
+                    <div class="fin-value-row">
+                      <span class="currency-symbol">₹</span>
+                      <span class="fin-amount-sm" id="rec-hero-freight-val">1,305.33</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Key Metrics Grid -->
+                <div class="rec-metrics-grid">
+                  <div class="rec-metric-card">
+                    <span class="m-icon">🚚</span>
+                    <span class="m-label">Road Distance</span>
+                    <strong class="m-val" id="rec-hero-dist">67.6 km</strong>
+                  </div>
+                  <div class="rec-metric-card">
+                    <span class="m-icon">⏱️</span>
+                    <span class="m-label">Transit Time</span>
+                    <strong class="m-val" id="rec-hero-time">70.1 min</strong>
+                  </div>
+                  <div class="rec-metric-card">
+                    <span class="m-icon">🍃</span>
+                    <span class="m-label">Transit Spoilage</span>
+                    <strong class="m-val" id="rec-hero-spoil">6.84% (Low)</strong>
+                  </div>
+                  <div class="rec-metric-card">
+                    <span class="m-icon">📦</span>
+                    <span class="m-label">Sellable Quantity</span>
+                    <strong class="m-val" id="rec-hero-sellable">931.6 kg</strong>
+                  </div>
+                </div>
+
+                <!-- Decision Rationale Box -->
+                <div class="rec-rationale-box">
+                  <div class="rationale-header">
+                    <span class="rationale-icon">💡</span>
+                    <strong>Decision Rationale:</strong>
+                  </div>
+                  <p class="rationale-text" id="rec-hero-rationale">
+                    Recommended 'Thrissur APMC' as Rank #1 because it delivers the highest expected profit (Rs 8542.46), lowest freight cost (Rs 1305.33), minimal transit spoilage loss (6.84%) over a 67.6 km transit route with a TOPSIS closeness score of 0.9864.
+                  </p>
+                </div>
+              </div>
+
+              <!-- FULL RANKINGS COMPARISON TABLE CARD -->
+              <div class="card table-card">
+                <div class="card-header border-bottom">
+                  <div class="card-title-group">
+                    <div class="card-icon list-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="8" y1="6" x2="21" y2="6"/>
+                        <line x1="8" y1="12" x2="21" y2="12"/>
+                        <line x1="8" y1="18" x2="21" y2="18"/>
+                        <line x1="3" y1="6" x2="3.01" y2="6"/>
+                        <line x1="3" y1="12" x2="3.01" y2="12"/>
+                        <line x1="3" y1="18" x2="3.01" y2="18"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 class="card-title">Multi-Market Comparison & Rankings</h3>
+                      <p class="card-subtitle">All candidate mandis evaluated and ranked by TOPSIS closeness coefficient</p>
+                    </div>
+                  </div>
+                  <span class="badge badge-primary">Method: TOPSIS</span>
+                </div>
+
+                <div class="ranking-table-wrapper">
+                  <table class="ranking-table">
+                    <thead>
+                      <tr>
+                        <th class="text-center">Rank</th>
+                        <th>Market Mandi</th>
+                        <th class="text-right">Price (Qtl &bull; kg)</th>
+                        <th class="text-right">Distance</th>
+                        <th class="text-right">Freight</th>
+                        <th class="text-right">Spoilage %</th>
+                        <th class="text-right">Expected Profit / Net Return</th>
+                        <th class="text-center">TOPSIS Score</th>
+                      </tr>
+                    </thead>
+                    <tbody id="rankings-table-body">
+                      <!-- Dynamically rendered rows -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+
+              <!-- DECISION CRITERIA & WEIGHTS TRANSPARENCY CARD -->
+              <div class="card criteria-card">
+                <div class="card-header border-bottom">
+                  <div class="card-title-group">
+                    <div class="card-icon info-icon">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"/>
+                        <line x1="12" y1="16" x2="12" y2="12"/>
+                        <line x1="12" y1="8" x2="12.01" y2="8"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 class="card-title">Multi-Criteria Decision Specifications</h3>
+                      <p class="card-subtitle">Criteria dimensions, optimization directions, and normalized weights</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="criteria-table-wrapper">
+                  <table class="criteria-table">
+                    <thead>
+                      <tr>
+                        <th>Criterion Dimension</th>
+                        <th>Optimization Goal</th>
+                        <th class="text-right">Weight</th>
+                        <th>Technical Mapping</th>
+                      </tr>
+                    </thead>
+                    <tbody id="criteria-table-body">
+                      <!-- Dynamically rendered criteria -->
+                    </tbody>
+                  </table>
+                </div>
+
+                <!-- Failed Candidates Warning (if any) -->
+                <div id="rec-failed-candidates-box" class="failed-candidates-box hidden">
+                  <div class="failed-header">
+                    <span>⚠️</span>
+                    <strong>Excluded Candidate Markets:</strong>
+                  </div>
+                  <ul id="rec-failed-candidates-list" class="failed-list"></ul>
+                </div>
+
+                <!-- Transparency Disclaimer -->
+                <div class="transparency-disclaimer">
+                  <p>
+                    <strong>Decision-Support Disclaimer:</strong> Recommendations are decision-support estimates based on predicted prices, estimated transport costs, heuristic spoilage risk, and configurable TOPSIS weights. Results may change with market conditions and user priorities.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <span>Agri_mini AI Decision-Support Platform &bull; Production Backend v1.0.0</span>
+        </div>
+        <div class="footer-right">
+          <a href="/docs" target="_blank">Swagger OpenAPI</a>
+          <span class="footer-sep">&bull;</span>
+          <a href="/health" target="_blank">Health Check</a>
+          <span class="footer-sep">&bull;</span>
+          <span>PostgreSQL &bull; Agmarknet &bull; Open-Meteo &bull; FAOSTAT &bull; OSRM</span>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

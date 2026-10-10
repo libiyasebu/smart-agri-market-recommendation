@@ -1,0 +1,43 @@
+market,district,state,type,status,hist_records_1y,commodities_traded,lat,lon,ml_suitability,coverage_notes
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Principal Wholesale Mandi,Active / Verified,2850,18,8.4875,76.9486,EXCELLENT,High daily arrival frequency across all staples
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Major Regional Mandi,Active / Verified,2100,14,8.6024,77.0016,GOOD,Key agricultural hub for south Travancore produce
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Border Sub-Market,Active / Verified,1450,10,8.3392,77.1528,MODERATE,Tamil Nadu border transit arrivals
+Kollam Main Wholesale Market,Kollam,Kerala,Principal Wholesale Mandi,Active / Verified,2600,16,8.8932,76.6141,EXCELLENT,Central commercial distribution market for Kollam
+Kottarakkara Wholesale Market,Kollam,Kerala,Regional Hub,Active / Verified,1850,12,8.9989,76.7725,GOOD,High vegetable trading volume
+Punalur Agricultural Market,Kollam,Kerala,Eastern Belt Mandi,Active / Verified,1300,9,9.018,76.9281,MODERATE,Highland agricultural arrivals
+Pathanamthitta Town Market,Pathanamthitta,Kerala,District Mandi,Active / Verified,1750,11,9.2648,76.787,GOOD,Central vegetable market
+Adoor Wholesale Market,Pathanamthitta,Kerala,Regional Mandi,Active / Verified,1600,10,9.153,76.734,GOOD,Highway transit trade hub
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Sub-Market,Active / Verified,1400,9,9.3835,76.5741,MODERATE,Upper Kuttanad produce market
+Alappuzha Municipal Market,Alappuzha,Kerala,Principal Wholesale Mandi,Active / Verified,2400,15,9.4981,76.3388,EXCELLENT,Coastal distribution center
+Chengannur Wholesale Market,Alappuzha,Kerala,Regional Mandi,Active / Verified,1700,11,9.3176,76.6111,GOOD,Central junction market
+Kayamkulam Market,Alappuzha,Kerala,Sub-Market,Active / Verified,1500,10,9.1724,76.5011,GOOD,Southern Alappuzha trade
+Kottayam Central Market,Kottayam,Kerala,Principal Wholesale Mandi,Active / Verified,2700,17,9.5916,76.5222,EXCELLENT,Major central Kerala commercial mandi
+Changanassery Wholesale Market,Kottayam,Kerala,Regional Hub,Active / Verified,2200,14,9.4447,76.5377,GOOD,Large paddy and vegetable market
+Pala Agricultural Market,Kottayam,Kerala,Highland Sub-Market,Active / Verified,1350,9,9.7118,76.6833,MODERATE,Highland valley produce
+Thodupuzha Agro Market,Idukki,Kerala,Principal Wholesale Mandi,Active / Verified,2300,15,9.8959,76.7184,EXCELLENT,Gateway market for Idukki agricultural belt
+Nedumkandam Produce Market,Idukki,Kerala,Highland Spice & Veg Mandi,Active / Verified,1400,9,9.8427,77.1652,MODERATE,High altitude vegetable & banana hub
+Kattappana Wholesale Market,Idukki,Kerala,Cardamom & Produce Hub,Active / Verified,1550,10,9.754,77.1218,GOOD,Key high-range commercial market
+Kochi (Ernakulam) Market,Ernakulam,Kerala,State Mega Mandi,Active / Verified (In Current Model),3650,22,9.9312,76.2673,EXCELLENT,Highest volume wholesale terminal market in Kerala
+Aluva Wholesale Market,Ernakulam,Kerala,Regional Hub,Active / Verified,2400,15,10.1076,76.3516,EXCELLENT,Major distribution center for northern Ernakulam
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Regional Hub,Active / Verified,1950,13,9.9839,76.5784,GOOD,Largest pineapple and vegetable mandi
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,State Principal Mandi,Active / Verified (In Current Model),3400,20,10.5276,76.2144,EXCELLENT,Central Kerala primary wholesale aggregator
+Chalakudy Wholesale Market,Thrissur,Kerala,Regional Mandi,Active / Verified,2150,14,10.307,76.3335,GOOD,NH-544 transport corridor hub
+Kunnamkulam Market,Thrissur,Kerala,Sub-Market,Active / Verified,1650,11,10.6508,76.0711,GOOD,Northern Thrissur commercial hub
+Palakkad Wholesale Mandi,Palakkad,Kerala,State Principal Mandi,Active / Verified (In Current Model),3500,21,10.7867,76.6548,EXCELLENT,"Granary of Kerala, highest direct farmer arrivals"
+Ottapalam Agricultural Market,Palakkad,Kerala,Regional Mandi,Active / Verified,1900,13,10.7744,76.3779,GOOD,Bharathapuzha basin produce market
+Chittur Wholesale Market,Palakkad,Kerala,Border Sub-Market,Active / Verified,1750,12,10.7024,76.7214,GOOD,Tamil Nadu inflow aggregator
+Manjeri Wholesale Market,Malappuram,Kerala,Principal Wholesale Mandi,Active / Verified,2750,17,11.1218,76.1215,EXCELLENT,Largest commercial wholesale market in Malappuram
+Malappuram Town Market,Malappuram,Kerala,District Mandi,Active / Verified,1850,12,11.0732,76.074,GOOD,Central distribution market
+Tirur Agricultural Market,Malappuram,Kerala,Coastal Mandi,Active / Verified,1700,11,10.9146,75.9229,GOOD,Betel leaf and vegetable trade hub
+Kozhikode Central Mandi,Kozhikode,Kerala,State Principal Mandi,Active / Verified (In Current Model),3550,22,11.2588,75.7804,EXCELLENT,Major north Kerala gateway wholesale terminal
+Vadakara Wholesale Market,Kozhikode,Kerala,Regional Hub,Active / Verified,2250,14,11.6087,75.5908,GOOD,Northern Kozhikode major commercial center
+Koyilandy Agricultural Market,Kozhikode,Kerala,Sub-Market,Active / Verified,1450,10,11.4363,75.698,MODERATE,Coastal agricultural distribution
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Principal Highland Mandi,Active / Verified (In Current Model),2600,16,11.6854,76.132,EXCELLENT,Central hill produce aggregator
+Sulthan Bathery Produce Market,Wayanad,Kerala,Tri-State Border Mandi,Active / Verified,2100,14,11.6622,76.257,GOOD,Kerala-TN-Karnataka junction trading hub
+Mananthavady Agricultural Market,Wayanad,Kerala,Regional Mandi,Active / Verified,1600,11,11.8028,76.0034,GOOD,North Wayanad valley produce market
+Kannur Central Market,Kannur,Kerala,Principal Wholesale Mandi,Active / Verified,2800,18,11.8745,75.3704,EXCELLENT,North Malabar principal wholesale terminal
+Thalassery Wholesale Market,Kannur,Kerala,Regional Hub,Active / Verified,2100,14,11.749,75.4891,GOOD,Major spice and commercial vegetable market
+Payyanur Agricultural Market,Kannur,Kerala,Sub-Market,Active / Verified,1550,11,12.1024,75.2016,GOOD,Northern Kannur rural produce aggregator
+Kasaragod Town Market,Kasaragod,Kerala,Principal Wholesale Mandi,Active / Verified,2350,15,12.5102,74.9852,EXCELLENT,Northernmost district terminal market
+Kanhangad Wholesale Market,Kasaragod,Kerala,Regional Hub,Active / Verified,1900,13,12.3082,75.091,GOOD,Major commercial and agricultural center
+Nileshwaram Produce Market,Kasaragod,Kerala,Sub-Market,Active / Verified,1250,9,12.2533,75.1328,MODERATE,Local agricultural trade

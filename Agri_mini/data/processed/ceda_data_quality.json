@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-10-04T17:19:33.742801",
+  "output_csv": "D:\\Agri_mini\\data\\processed\\ceda_prices_clean.csv",
+  "output_csv_size_kb": 3523.9,
+  "missing_date": 0,
+  "missing_commodity_id": 0,
+  "missing_district_id": 0,
+  "missing_market_id": 0,
+  "missing_min_price": 0,
+  "missing_max_price": 0,
+  "missing_modal_price": 0,
+  "zero_min_price": 32,
+  "zero_max_price": 40,
+  "zero_modal_price": 0,
+  "negative_prices": 0,
+  "min_price_gt_max_price": 14,
+  "modal_below_min": 0,
+  "modal_above_max": 40,
+  "modal_outside_min_max_range": 40,
+  "removed_negative_price_rows": 0,
+  "exact_duplicates_removed": 219
+}

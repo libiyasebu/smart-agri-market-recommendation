@@ -1,0 +1,43 @@
+state,district,market,total_records,commodities_covered,first_arrival,last_arrival,avg_modal_price,min_modal_price,max_modal_price
+Kerala,Alappuzha,Alappuzha Municipal Market,2659,10,2025-08-28,2026-08-27,2730.25,1209.73,5737.56
+Kerala,Alappuzha,Chengannur Wholesale Market,2301,10,2025-08-28,2026-08-27,2747.23,1205.9,5677.32
+Kerala,Alappuzha,Kayamkulam Market,1892,10,2025-08-28,2026-08-27,2711.79,1193.86,5659.61
+Kerala,Ernakulam,Aluva Wholesale Market,2503,10,2025-08-28,2026-08-27,2839.31,1235.09,5914.98
+Kerala,Ernakulam,Kochi (Ernakulam) Market,2827,10,2025-08-28,2026-08-27,2847.68,1265.15,5977.63
+Kerala,Ernakulam,Muvattupuzha Agricultural Market,2272,10,2025-08-28,2026-08-27,2855.22,1248.76,5952.82
+Kerala,Idukki,Kattappana Wholesale Market,2199,10,2025-08-28,2026-08-27,2580.38,1146.71,5511.09
+Kerala,Idukki,Nedumkandam Produce Market,1739,10,2025-08-28,2026-08-27,2599.76,1144.24,5499.91
+Kerala,Idukki,Thodupuzha Agro Market,2622,10,2025-08-28,2026-08-27,2605.61,1144.95,5454.84
+Kerala,Kannur,Kannur Central Market,2743,10,2025-08-28,2026-08-27,2788.32,1238.88,5842.78
+Kerala,Kannur,Payyanur Agricultural Market,1907,10,2025-08-28,2026-08-27,2788.17,1233.19,5802.6
+Kerala,Kannur,Thalassery Wholesale Market,2371,10,2025-08-28,2026-08-27,2784.6,1225.3,5921.44
+Kerala,Kasaragod,Kanhangad Wholesale Market,2276,10,2025-08-28,2026-08-27,2842.97,1232.26,5986.63
+Kerala,Kasaragod,Kasaragod Town Market,2691,10,2025-08-28,2026-08-27,2843.41,1247.82,5978.04
+Kerala,Kasaragod,Nileshwaram Produce Market,1681,10,2025-08-29,2026-08-26,2844.18,1251.28,5796.07
+Kerala,Kollam,Kollam Main Wholesale Market,2684,10,2025-08-28,2026-08-27,2752.44,1203.36,5879.96
+Kerala,Kollam,Kottarakkara Wholesale Market,2276,10,2025-08-28,2026-08-27,2770.6,1204.73,5888.39
+Kerala,Kollam,Punalur Agricultural Market,1822,10,2025-08-28,2026-08-26,2729.61,1212.0,5851.33
+Kerala,Kottayam,Changanassery Wholesale Market,2334,10,2025-08-28,2026-08-27,2769.08,1210.28,5867.31
+Kerala,Kottayam,Kottayam Central Market,2743,10,2025-08-28,2026-08-27,2759.63,1215.31,5787.48
+Kerala,Kottayam,Pala Agricultural Market,1749,10,2025-08-29,2026-08-27,2766.4,1214.06,5729.2
+Kerala,Kozhikode,Koyilandy Agricultural Market,1761,10,2025-08-28,2026-08-25,2815.73,1244.52,5783.77
+Kerala,Kozhikode,Kozhikode Central Mandi,2792,10,2025-08-28,2026-08-27,2816.18,1246.74,5859.2
+Kerala,Kozhikode,Vadakara Wholesale Market,2354,10,2025-08-28,2026-08-27,2805.81,1260.23,5791.1
+Kerala,Malappuram,Malappuram Town Market,2189,10,2025-08-28,2026-08-27,2734.91,1206.9,5635.53
+Kerala,Malappuram,Manjeri Wholesale Market,2721,10,2025-08-28,2026-08-27,2740.12,1206.07,5772.08
+Kerala,Malappuram,Tirur Agricultural Market,1956,10,2025-08-28,2026-08-27,2719.77,1195.97,5700.41
+Kerala,Palakkad,Chittur Wholesale Market,1960,10,2025-08-28,2026-08-27,2529.42,1131.26,5263.52
+Kerala,Palakkad,Ottapalam Agricultural Market,2269,10,2025-08-28,2026-08-27,2540.05,1108.98,5379.74
+Kerala,Palakkad,Palakkad Wholesale Mandi,2802,10,2025-08-28,2026-08-27,2551.21,1106.71,5365.91
+Kerala,Pathanamthitta,Adoor Wholesale Market,2255,10,2025-08-29,2026-08-27,2798.1,1227.0,5810.35
+Kerala,Pathanamthitta,Pathanamthitta Town Market,2281,10,2025-08-28,2026-08-27,2789.08,1227.85,5834.42
+Kerala,Pathanamthitta,Thiruvalla Agricultural Market,1745,10,2025-08-30,2026-08-26,2784.21,1224.08,5821.79
+Kerala,Thiruvananthapuram,Nedumangad Wholesale Market,2341,10,2025-08-28,2026-08-27,2811.13,1221.44,5904.09
+Kerala,Thiruvananthapuram,Parassala Agricultural Market,1751,10,2025-08-29,2026-08-27,2805.25,1252.63,5956.32
+Kerala,Thiruvananthapuram,Trivandrum APMC,2740,10,2025-08-28,2026-08-27,2810.01,1229.61,5874.31
+Kerala,Thrissur,Chalakudy Wholesale Market,2360,10,2025-08-29,2026-08-27,2708.97,1196.32,5640.66
+Kerala,Thrissur,Kunnamkulam Market,1748,10,2025-08-28,2026-08-27,2715.92,1210.08,5608.25
+Kerala,Thrissur,Thrissur APMC,2747,10,2025-08-28,2026-08-27,2705.21,1190.05,5574.23
+Kerala,Wayanad,Kalpetta (Wayanad) Market,2722,10,2025-08-28,2026-08-27,2565.36,1136.14,5425.38
+Kerala,Wayanad,Mananthavady Agricultural Market,1825,10,2025-08-28,2026-08-25,2564.03,1139.78,5454.4
+Kerala,Wayanad,Sulthan Bathery Produce Market,2280,10,2025-08-28,2026-08-26,2569.74,1119.49,5460.42

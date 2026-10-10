@@ -1,0 +1,117 @@
+{
+  "model_name": "Random Forest",
+  "target": "modal_price",
+  "feature_list": [
+    "commodity_id",
+    "district_id",
+    "market_id",
+    "year",
+    "month",
+    "day",
+    "day_of_week",
+    "quarter",
+    "month_sin",
+    "month_cos",
+    "day_of_year_sin",
+    "day_of_year_cos",
+    "temperature_max_c",
+    "temperature_min_c",
+    "temperature_mean_c",
+    "humidity_mean_pct",
+    "precipitation_sum_mm",
+    "rain_sum_mm",
+    "is_rainy_day",
+    "modal_price_lag_1",
+    "modal_price_lag_7",
+    "modal_price_lag_14",
+    "modal_price_lag_30",
+    "modal_price_roll_mean_7",
+    "modal_price_roll_mean_14",
+    "modal_price_roll_mean_30"
+  ],
+  "excluded_leakage": [
+    "min_price",
+    "max_price",
+    "price_range",
+    "price_midpoint",
+    "modal_price"
+  ],
+  "excluded_audit": [
+    "source",
+    "raw_file",
+    "quality_flag",
+    "commodity_name",
+    "district_name",
+    "state_id"
+  ],
+  "split_date": "2025-08-15",
+  "train_start": "2024-10-01",
+  "train_end": "2025-08-14",
+  "test_start": "2025-08-15",
+  "test_end": "2025-10-30",
+  "train_rows": 19561,
+  "test_rows": 3096,
+  "overall_MAE": 572.09,
+  "overall_RMSE": 765.73,
+  "overall_R2": 0.7764,
+  "baseline_MAE": 602.63,
+  "baseline_RMSE": 1067.16,
+  "baseline_R2": 0.5657,
+  "rf_MAE": 572.09,
+  "rf_RMSE": 765.73,
+  "rf_R2": 0.7764,
+  "xgb_MAE": 587.75,
+  "xgb_RMSE": 792.21,
+  "xgb_R2": 0.7607,
+  "per_commodity": [
+    {
+      "commodity_id": 19,
+      "commodity_name": "Banana",
+      "test_rows": 2658,
+      "MAE": 597.94,
+      "RMSE": 791.82,
+      "R2": 0.7688
+    },
+    {
+      "commodity_id": 23,
+      "commodity_name": "Onion",
+      "test_rows": 62,
+      "MAE": 179.32,
+      "RMSE": 248.41,
+      "R2": 0.492
+    },
+    {
+      "commodity_id": 24,
+      "commodity_name": "Potato",
+      "test_rows": 95,
+      "MAE": 302.08,
+      "RMSE": 453.62,
+      "R2": 0.2101
+    },
+    {
+      "commodity_id": 35,
+      "commodity_name": "Brinjal",
+      "test_rows": 114,
+      "MAE": 454.26,
+      "RMSE": 614.27,
+      "R2": 0.3785
+    },
+    {
+      "commodity_id": 78,
+      "commodity_name": "Tomato",
+      "test_rows": 71,
+      "MAE": 596.0,
+      "RMSE": 745.71,
+      "R2": -0.1173
+    },
+    {
+      "commodity_id": 87,
+      "commodity_name": "Green Chilli",
+      "test_rows": 96,
+      "MAE": 499.65,
+      "RMSE": 668.87,
+      "R2": 0.3785
+    }
+  ],
+  "generated_at": "2026-10-03T19:22:27.059608"
+}

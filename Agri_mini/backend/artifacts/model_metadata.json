@@ -1,0 +1,934 @@
+{
+  "project_name": "AI-Based Agricultural Price Prediction and Smart Transport Optimization System",
+  "phase": "Phase 5B: Model Validation, Hyperparameter Tuning & Selection",
+  "updated_at": "2026-08-27T22:00:34.121113",
+  "target_variable": "modal_price",
+  "target_unit": "INR per quintal",
+  "best_model_name": "Random Forest (Tuned)",
+  "selected_production_model": "Random Forest (Tuned)",
+  "best_hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 10,
+    "min_samples_split": 2,
+    "min_samples_leaf": 1,
+    "max_features": 1.0
+  },
+  "final_test_metrics": {
+    "mae": 21.2,
+    "rmse": 29.55,
+    "r2": 0.999,
+    "mape": 0.93
+  },
+  "best_model_test_metrics": {
+    "mae": 21.2,
+    "rmse": 29.55,
+    "r2": 0.999,
+    "mape": 0.93
+  },
+  "cross_validation_metrics": {
+    "folds": [
+      {
+        "fold": 1,
+        "train_size": 94,
+        "val_size": 94,
+        "mae": 57.6,
+        "rmse": 71.69,
+        "r2": 0.9941,
+        "mape": 2.45
+      },
+      {
+        "fold": 2,
+        "train_size": 188,
+        "val_size": 94,
+        "mae": 44.38,
+        "rmse": 61.83,
+        "r2": 0.9957,
+        "mape": 1.95
+      },
+      {
+        "fold": 3,
+        "train_size": 282,
+        "val_size": 94,
+        "mae": 44.29,
+        "rmse": 56.91,
+        "r2": 0.9964,
+        "mape": 1.95
+      },
+      {
+        "fold": 4,
+        "train_size": 376,
+        "val_size": 94,
+        "mae": 20.65,
+        "rmse": 30.11,
+        "r2": 0.999,
+        "mape": 0.88
+      }
+    ],
+    "mean_mae": 41.73,
+    "std_mae": 13.32,
+    "mean_rmse": 55.13,
+    "std_rmse": 15.4,
+    "mean_r2": 0.9963,
+    "std_r2": 0.0018,
+    "mean_mape": 1.81,
+    "std_mape": 0.57
+  },
+  "full_model_comparison": {
+    "Persistence Baseline": {
+      "train": {
+        "mae": 85.96,
+        "rmse": 88.89,
+        "r2": 0.9912,
+        "mape": 3.69
+      },
+      "test": {
+        "mae": 82.2,
+        "rmse": 82.98,
+        "r2": 0.9923,
+        "mape": 3.54
+      },
+      "cv": null
+    },
+    "Linear Regression": {
+      "train": {
+        "mae": 30.36,
+        "rmse": 39.11,
+        "r2": 0.9983,
+        "mape": 1.32
+      },
+      "test": {
+        "mae": 59.44,
+        "rmse": 61.09,
+        "r2": 0.9959,
+        "mape": 2.58
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 17.63,
+            "rmse": 21.76,
+            "r2": 0.9995,
+            "mape": 0.76
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 189.89,
+            "rmse": 229.74,
+            "r2": 0.9406,
+            "mape": 8.38
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 119.97,
+            "rmse": 128.02,
+            "r2": 0.9819,
+            "mape": 5.25
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 76.37,
+            "rmse": 86.49,
+            "r2": 0.9915,
+            "mape": 3.24
+          }
+        ],
+        "mean_mae": 100.97,
+        "std_mae": 62.89,
+        "mean_rmse": 116.5,
+        "std_rmse": 75.55,
+        "mean_r2": 0.9784,
+        "std_r2": 0.0227,
+        "mean_mape": 4.41,
+        "std_mape": 2.79
+      }
+    },
+    "Random Forest (Default)": {
+      "train": {
+        "mae": 11.62,
+        "rmse": 18.08,
+        "r2": 0.9996,
+        "mape": 0.5
+      },
+      "test": {
+        "mae": 26.61,
+        "rmse": 34.46,
+        "r2": 0.9987,
+        "mape": 1.16
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 65.13,
+            "rmse": 79.32,
+            "r2": 0.9928,
+            "mape": 2.76
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 47.02,
+            "rmse": 62.6,
+            "r2": 0.9956,
+            "mape": 2.07
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 42.3,
+            "rmse": 55.03,
+            "r2": 0.9967,
+            "mape": 1.87
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 23.34,
+            "rmse": 32.82,
+            "r2": 0.9988,
+            "mape": 0.99
+          }
+        ],
+        "mean_mae": 44.45,
+        "std_mae": 14.87,
+        "mean_rmse": 57.44,
+        "std_rmse": 16.71,
+        "mean_r2": 0.996,
+        "std_r2": 0.0022,
+        "mean_mape": 1.92,
+        "std_mape": 0.63
+      }
+    },
+    "XGBoost (Default)": {
+      "train": {
+        "mae": 1.89,
+        "rmse": 2.67,
+        "r2": 1.0,
+        "mape": 0.08
+      },
+      "test": {
+        "mae": 31.78,
+        "rmse": 43.04,
+        "r2": 0.9979,
+        "mape": 1.5
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 55.95,
+            "rmse": 69.35,
+            "r2": 0.9945,
+            "mape": 2.43
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 52.11,
+            "rmse": 76.85,
+            "r2": 0.9933,
+            "mape": 2.38
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 113.44,
+            "rmse": 200.8,
+            "r2": 0.9556,
+            "mape": 4.24
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 45.45,
+            "rmse": 66.55,
+            "r2": 0.9949,
+            "mape": 1.8
+          }
+        ],
+        "mean_mae": 66.74,
+        "std_mae": 27.22,
+        "mean_rmse": 103.39,
+        "std_rmse": 56.37,
+        "mean_r2": 0.9846,
+        "std_r2": 0.0167,
+        "mean_mape": 2.71,
+        "std_mape": 0.92
+      }
+    },
+    "Random Forest (Tuned)": {
+      "train": {
+        "mae": 7.47,
+        "rmse": 12.04,
+        "r2": 0.9998,
+        "mape": 0.32
+      },
+      "test": {
+        "mae": 21.2,
+        "rmse": 29.55,
+        "r2": 0.999,
+        "mape": 0.93
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 57.6,
+            "rmse": 71.69,
+            "r2": 0.9941,
+            "mape": 2.45
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 44.38,
+            "rmse": 61.83,
+            "r2": 0.9957,
+            "mape": 1.95
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 44.29,
+            "rmse": 56.91,
+            "r2": 0.9964,
+            "mape": 1.95
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 20.65,
+            "rmse": 30.11,
+            "r2": 0.999,
+            "mape": 0.88
+          }
+        ],
+        "mean_mae": 41.73,
+        "std_mae": 13.32,
+        "mean_rmse": 55.13,
+        "std_rmse": 15.4,
+        "mean_r2": 0.9963,
+        "std_r2": 0.0018,
+        "mean_mape": 1.81,
+        "std_mape": 0.57
+      }
+    },
+    "XGBoost (Tuned)": {
+      "train": {
+        "mae": 1.05,
+        "rmse": 1.54,
+        "r2": 1.0,
+        "mape": 0.05
+      },
+      "test": {
+        "mae": 33.01,
+        "rmse": 43.66,
+        "r2": 0.9979,
+        "mape": 1.58
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 54.24,
+            "rmse": 68.67,
+            "r2": 0.9946,
+            "mape": 2.37
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 50.99,
+            "rmse": 75.69,
+            "r2": 0.9935,
+            "mape": 2.33
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 109.09,
+            "rmse": 182.55,
+            "r2": 0.9633,
+            "mape": 4.06
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 46.58,
+            "rmse": 73.0,
+            "r2": 0.9939,
+            "mape": 1.76
+          }
+        ],
+        "mean_mae": 65.22,
+        "std_mae": 25.47,
+        "mean_rmse": 99.98,
+        "std_rmse": 47.74,
+        "mean_r2": 0.9863,
+        "std_r2": 0.0133,
+        "mean_mape": 2.63,
+        "std_mape": 0.86
+      }
+    }
+  },
+  "model_comparison": {
+    "Persistence Baseline": {
+      "train": {
+        "mae": 85.96,
+        "rmse": 88.89,
+        "r2": 0.9912,
+        "mape": 3.69
+      },
+      "test": {
+        "mae": 82.2,
+        "rmse": 82.98,
+        "r2": 0.9923,
+        "mape": 3.54
+      },
+      "cv": null
+    },
+    "Linear Regression": {
+      "train": {
+        "mae": 30.36,
+        "rmse": 39.11,
+        "r2": 0.9983,
+        "mape": 1.32
+      },
+      "test": {
+        "mae": 59.44,
+        "rmse": 61.09,
+        "r2": 0.9959,
+        "mape": 2.58
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 17.63,
+            "rmse": 21.76,
+            "r2": 0.9995,
+            "mape": 0.76
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 189.89,
+            "rmse": 229.74,
+            "r2": 0.9406,
+            "mape": 8.38
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 119.97,
+            "rmse": 128.02,
+            "r2": 0.9819,
+            "mape": 5.25
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 76.37,
+            "rmse": 86.49,
+            "r2": 0.9915,
+            "mape": 3.24
+          }
+        ],
+        "mean_mae": 100.97,
+        "std_mae": 62.89,
+        "mean_rmse": 116.5,
+        "std_rmse": 75.55,
+        "mean_r2": 0.9784,
+        "std_r2": 0.0227,
+        "mean_mape": 4.41,
+        "std_mape": 2.79
+      }
+    },
+    "Random Forest (Default)": {
+      "train": {
+        "mae": 11.62,
+        "rmse": 18.08,
+        "r2": 0.9996,
+        "mape": 0.5
+      },
+      "test": {
+        "mae": 26.61,
+        "rmse": 34.46,
+        "r2": 0.9987,
+        "mape": 1.16
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 65.13,
+            "rmse": 79.32,
+            "r2": 0.9928,
+            "mape": 2.76
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 47.02,
+            "rmse": 62.6,
+            "r2": 0.9956,
+            "mape": 2.07
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 42.3,
+            "rmse": 55.03,
+            "r2": 0.9967,
+            "mape": 1.87
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 23.34,
+            "rmse": 32.82,
+            "r2": 0.9988,
+            "mape": 0.99
+          }
+        ],
+        "mean_mae": 44.45,
+        "std_mae": 14.87,
+        "mean_rmse": 57.44,
+        "std_rmse": 16.71,
+        "mean_r2": 0.996,
+        "std_r2": 0.0022,
+        "mean_mape": 1.92,
+        "std_mape": 0.63
+      }
+    },
+    "XGBoost (Default)": {
+      "train": {
+        "mae": 1.89,
+        "rmse": 2.67,
+        "r2": 1.0,
+        "mape": 0.08
+      },
+      "test": {
+        "mae": 31.78,
+        "rmse": 43.04,
+        "r2": 0.9979,
+        "mape": 1.5
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 55.95,
+            "rmse": 69.35,
+            "r2": 0.9945,
+            "mape": 2.43
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 52.11,
+            "rmse": 76.85,
+            "r2": 0.9933,
+            "mape": 2.38
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 113.44,
+            "rmse": 200.8,
+            "r2": 0.9556,
+            "mape": 4.24
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 45.45,
+            "rmse": 66.55,
+            "r2": 0.9949,
+            "mape": 1.8
+          }
+        ],
+        "mean_mae": 66.74,
+        "std_mae": 27.22,
+        "mean_rmse": 103.39,
+        "std_rmse": 56.37,
+        "mean_r2": 0.9846,
+        "std_r2": 0.0167,
+        "mean_mape": 2.71,
+        "std_mape": 0.92
+      }
+    },
+    "Random Forest (Tuned)": {
+      "train": {
+        "mae": 7.47,
+        "rmse": 12.04,
+        "r2": 0.9998,
+        "mape": 0.32
+      },
+      "test": {
+        "mae": 21.2,
+        "rmse": 29.55,
+        "r2": 0.999,
+        "mape": 0.93
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 57.6,
+            "rmse": 71.69,
+            "r2": 0.9941,
+            "mape": 2.45
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 44.38,
+            "rmse": 61.83,
+            "r2": 0.9957,
+            "mape": 1.95
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 44.29,
+            "rmse": 56.91,
+            "r2": 0.9964,
+            "mape": 1.95
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 20.65,
+            "rmse": 30.11,
+            "r2": 0.999,
+            "mape": 0.88
+          }
+        ],
+        "mean_mae": 41.73,
+        "std_mae": 13.32,
+        "mean_rmse": 55.13,
+        "std_rmse": 15.4,
+        "mean_r2": 0.9963,
+        "std_r2": 0.0018,
+        "mean_mape": 1.81,
+        "std_mape": 0.57
+      }
+    },
+    "XGBoost (Tuned)": {
+      "train": {
+        "mae": 1.05,
+        "rmse": 1.54,
+        "r2": 1.0,
+        "mape": 0.05
+      },
+      "test": {
+        "mae": 33.01,
+        "rmse": 43.66,
+        "r2": 0.9979,
+        "mape": 1.58
+      },
+      "cv": {
+        "folds": [
+          {
+            "fold": 1,
+            "train_size": 94,
+            "val_size": 94,
+            "mae": 54.24,
+            "rmse": 68.67,
+            "r2": 0.9946,
+            "mape": 2.37
+          },
+          {
+            "fold": 2,
+            "train_size": 188,
+            "val_size": 94,
+            "mae": 50.99,
+            "rmse": 75.69,
+            "r2": 0.9935,
+            "mape": 2.33
+          },
+          {
+            "fold": 3,
+            "train_size": 282,
+            "val_size": 94,
+            "mae": 109.09,
+            "rmse": 182.55,
+            "r2": 0.9633,
+            "mape": 4.06
+          },
+          {
+            "fold": 4,
+            "train_size": 376,
+            "val_size": 94,
+            "mae": 46.58,
+            "rmse": 73.0,
+            "r2": 0.9939,
+            "mape": 1.76
+          }
+        ],
+        "mean_mae": 65.22,
+        "std_mae": 25.47,
+        "mean_rmse": 99.98,
+        "std_rmse": 47.74,
+        "mean_r2": 0.9863,
+        "std_r2": 0.0133,
+        "mean_mape": 2.63,
+        "std_mape": 0.86
+      }
+    }
+  },
+  "dataset_info": {
+    "train_samples": 470,
+    "test_samples": 118,
+    "feature_count": 54,
+    "train_date_range": {
+      "start": "2026-08-14",
+      "end": "2026-08-25"
+    },
+    "test_date_range": {
+      "start": "2026-08-25",
+      "end": "2026-08-27"
+    }
+  },
+  "top_15_feature_importances": [
+    {
+      "rank": 1,
+      "feature": "hist_rolling_mean_7d",
+      "importance": 0.387298
+    },
+    {
+      "rank": 2,
+      "feature": "hist_lag_1d_price",
+      "importance": 0.349558
+    },
+    {
+      "rank": 3,
+      "feature": "hist_rolling_mean_3d",
+      "importance": 0.14723
+    },
+    {
+      "rank": 4,
+      "feature": "commodity_Banana",
+      "importance": 0.032481
+    },
+    {
+      "rank": 5,
+      "feature": "commodity_Green Chilli",
+      "importance": 0.023806
+    },
+    {
+      "rank": 6,
+      "feature": "variety_Local",
+      "importance": 0.014208
+    },
+    {
+      "rank": 7,
+      "feature": "variety_Robusta",
+      "importance": 0.012601
+    },
+    {
+      "rank": 8,
+      "feature": "commodity_Cabbage",
+      "importance": 0.006574
+    },
+    {
+      "rank": 9,
+      "feature": "variety_Standard",
+      "importance": 0.006341
+    },
+    {
+      "rank": 10,
+      "feature": "faostat_matched",
+      "importance": 0.003524
+    },
+    {
+      "rank": 11,
+      "feature": "variety_Red / Nasik",
+      "importance": 0.003159
+    },
+    {
+      "rank": 12,
+      "feature": "faostat_yield_hg_per_ha",
+      "importance": 0.00312
+    },
+    {
+      "rank": 13,
+      "feature": "faostat_production_tonnes",
+      "importance": 0.002726
+    },
+    {
+      "rank": 14,
+      "feature": "variety_Hybrid",
+      "importance": 0.001728
+    },
+    {
+      "rank": 15,
+      "feature": "faostat_area_harvested_ha",
+      "importance": 0.001673
+    }
+  ],
+  "top_15_xgb_features": [
+    {
+      "rank": 1,
+      "feature": "hist_rolling_mean_7d",
+      "importance": 0.387298
+    },
+    {
+      "rank": 2,
+      "feature": "hist_lag_1d_price",
+      "importance": 0.349558
+    },
+    {
+      "rank": 3,
+      "feature": "hist_rolling_mean_3d",
+      "importance": 0.14723
+    },
+    {
+      "rank": 4,
+      "feature": "commodity_Banana",
+      "importance": 0.032481
+    },
+    {
+      "rank": 5,
+      "feature": "commodity_Green Chilli",
+      "importance": 0.023806
+    },
+    {
+      "rank": 6,
+      "feature": "variety_Local",
+      "importance": 0.014208
+    },
+    {
+      "rank": 7,
+      "feature": "variety_Robusta",
+      "importance": 0.012601
+    },
+    {
+      "rank": 8,
+      "feature": "commodity_Cabbage",
+      "importance": 0.006574
+    },
+    {
+      "rank": 9,
+      "feature": "variety_Standard",
+      "importance": 0.006341
+    },
+    {
+      "rank": 10,
+      "feature": "faostat_matched",
+      "importance": 0.003524
+    },
+    {
+      "rank": 11,
+      "feature": "variety_Red / Nasik",
+      "importance": 0.003159
+    },
+    {
+      "rank": 12,
+      "feature": "faostat_yield_hg_per_ha",
+      "importance": 0.00312
+    },
+    {
+      "rank": 13,
+      "feature": "faostat_production_tonnes",
+      "importance": 0.002726
+    },
+    {
+      "rank": 14,
+      "feature": "variety_Hybrid",
+      "importance": 0.001728
+    },
+    {
+      "rank": 15,
+      "feature": "faostat_area_harvested_ha",
+      "importance": 0.001673
+    }
+  ],
+  "leakage_audit": {
+    "passed": true,
+    "direct_price_leaks_found": [],
+    "historical_lag_shift_verified": true,
+    "train_test_date_overlap": false,
+    "train_date_range": {
+      "start": "2026-08-14",
+      "end": "2026-08-25"
+    },
+    "test_date_range": {
+      "start": "2026-08-25",
+      "end": "2026-08-27"
+    },
+    "r2_investigation_note": "R^2 (~0.998) is naturally high because the cross-sectional price variance across commodities (e.g., Cabbage ~Rs.1400 vs. Tomato ~Rs.2400 vs. Green Chilli ~Rs.4500) is large (~Rs.945 std), while daily time-series price changes are small. The prior-day price and commodity indicators explain >99% of total variance across the multi-commodity portfolio, with test MAE (~Rs.26) accurately capturing the real day-to-day residual error."
+  },
+  "artifact_files": {
+    "model_file": "best_price_model.joblib",
+    "preprocessor_file": "preprocessor.joblib"
+  },
+  "hyperparameter_tuning_results": {
+    "random_forest_best_params": {
+      "n_estimators": 50,
+      "min_samples_split": 2,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 10
+    },
+    "xgboost_best_params": {
+      "subsample": 0.85,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.0,
+      "n_estimators": 150,
+      "max_depth": 7,
+      "learning_rate": 0.08,
+      "colsample_bytree": 0.7
+    }
+  }
+}

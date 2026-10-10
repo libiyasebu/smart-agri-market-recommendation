@@ -1,0 +1,11 @@
+commodity,category,primary_variety,status_in_current_model,ml_suitability,reporting_regularity,shelf_life_days,cleaned_1y_records,markets_trading_count
+Tomato,Vegetable (Solanaceous),Hybrid,ACTIVE,EXCELLENT,Daily (96%+ days),4,9579,42
+Banana,Fruit / Commercial Crop,Robusta,ACTIVE,EXCELLENT,Daily (96%+ days),6,9565,42
+Onion,Bulb Vegetable,Red / Nasik,ACTIVE,EXCELLENT,Daily (95%+ days),18,9566,42
+Potato,Tuber Vegetable,Jyoti,ACTIVE,EXCELLENT,Daily (95%+ days),21,9565,42
+Green Chilli,Spice Vegetable,Local,ACTIVE,EXCELLENT,Daily (94%+ days),5,9580,42
+Cabbage,Cruciferous Vegetable,Standard,ACTIVE,EXCELLENT,Daily (92%+ days),10,9604,42
+Brinjal,Vegetable (Solanaceous),Local,CANDIDATE (NEW),EXCELLENT,High (90%+ days),5,9634,42
+Cucumber,Cucurbit Vegetable,Salad / Local,CANDIDATE (NEW),EXCELLENT,High (90%+ days),6,9611,42
+Carrot,Root Vegetable,Nilgiri / Local,CANDIDATE (NEW),EXCELLENT,High (91%+ days),12,9591,42
+Beans,Legume Vegetable,French / String,CANDIDATE (NEW),EXCELLENT,High (89%+ days),5,9595,42

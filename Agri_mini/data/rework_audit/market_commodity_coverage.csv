@@ -1,0 +1,421 @@
+Market,District,State,Commodity,Estimated Records (1-Year),Estimated Unique Days,Earliest Date (1-Year Target),Latest Date (1-Year Target),Coverage Span,Suitable for ML,Data Density
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Tomato,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Banana,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Onion,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Potato,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Green Chilli,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Cabbage,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Brinjal (Eggplant),182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Cucumber,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Carrot,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Trivandrum APMC (Chala Market),Thiruvananthapuram,Kerala,Beans (French/Cowpea),182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumangad Wholesale Market,Thiruvananthapuram,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Tomato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Banana,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Onion,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Potato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Green Chilli,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Cabbage,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Brinjal (Eggplant),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Cucumber,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Carrot,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Parassala Agricultural Market,Thiruvananthapuram,Kerala,Beans (French/Cowpea),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Tomato,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Banana,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Onion,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Potato,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Green Chilli,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Cabbage,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Brinjal (Eggplant),186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Cucumber,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Carrot,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kollam Main Wholesale Market,Kollam,Kerala,Beans (French/Cowpea),186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Tomato,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Banana,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Onion,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Potato,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Green Chilli,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Cabbage,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Brinjal (Eggplant),138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Cucumber,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Carrot,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottarakkara Wholesale Market,Kollam,Kerala,Beans (French/Cowpea),138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Tomato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Banana,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Onion,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Potato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Green Chilli,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Cabbage,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Brinjal (Eggplant),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Cucumber,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Carrot,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Punalur Agricultural Market,Kollam,Kerala,Beans (French/Cowpea),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Tomato,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Banana,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Onion,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Potato,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Green Chilli,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Cabbage,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Brinjal (Eggplant),143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Cucumber,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Carrot,143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pathanamthitta Town Market,Pathanamthitta,Kerala,Beans (French/Cowpea),143,135,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Tomato,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Banana,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Onion,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Potato,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Green Chilli,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Cabbage,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Brinjal (Eggplant),144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Cucumber,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Carrot,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Adoor Wholesale Market,Pathanamthitta,Kerala,Beans (French/Cowpea),144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Tomato,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Banana,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Onion,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Potato,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Green Chilli,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Cabbage,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Brinjal (Eggplant),140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Cucumber,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Carrot,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thiruvalla Agricultural Market,Pathanamthitta,Kerala,Beans (French/Cowpea),140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Tomato,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Banana,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Onion,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Potato,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Green Chilli,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Cabbage,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Brinjal (Eggplant),184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Cucumber,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Carrot,184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Alappuzha Municipal Market,Alappuzha,Kerala,Beans (French/Cowpea),184,174,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Tomato,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Banana,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Onion,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Potato,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Green Chilli,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Cabbage,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Brinjal (Eggplant),139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Cucumber,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Carrot,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chengannur Wholesale Market,Alappuzha,Kerala,Beans (French/Cowpea),139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kayamkulam Market,Alappuzha,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kottayam Central Market,Kottayam,Kerala,Tomato,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Banana,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Onion,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Potato,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Green Chilli,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Cabbage,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Brinjal (Eggplant),182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Cucumber,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Carrot,182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kottayam Central Market,Kottayam,Kerala,Beans (French/Cowpea),182,172,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Tomato,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Banana,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Onion,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Potato,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Green Chilli,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Cabbage,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Brinjal (Eggplant),141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Cucumber,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Carrot,141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Changanassery Wholesale Market,Kottayam,Kerala,Beans (French/Cowpea),141,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Pala Agricultural Market,Kottayam,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Tomato,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Banana,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Onion,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Potato,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Green Chilli,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Cabbage,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Brinjal (Eggplant),176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Cucumber,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Carrot,176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thodupuzha Agro Market,Idukki,Kerala,Beans (French/Cowpea),176,167,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Tomato,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Banana,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Onion,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Potato,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Green Chilli,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Cabbage,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Brinjal (Eggplant),140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Cucumber,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Carrot,140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nedumkandam Produce Market,Idukki,Kerala,Beans (French/Cowpea),140,133,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Tomato,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Banana,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Onion,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Potato,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Green Chilli,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Cabbage,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Brinjal (Eggplant),139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Cucumber,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Carrot,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kattappana Wholesale Market,Idukki,Kerala,Beans (French/Cowpea),139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Tomato,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Banana,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Onion,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Potato,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Green Chilli,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Cabbage,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Brinjal (Eggplant),190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Cucumber,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Carrot,190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kochi (Ernakulam) Market,Ernakulam,Kerala,Beans (French/Cowpea),190,180,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Tomato,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Banana,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Onion,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Potato,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Green Chilli,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Cabbage,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Brinjal (Eggplant),144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Cucumber,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Carrot,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Aluva Wholesale Market,Ernakulam,Kerala,Beans (French/Cowpea),144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Muvattupuzha Agricultural Market,Ernakulam,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Tomato,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Banana,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Onion,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Potato,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Green Chilli,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Cabbage,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Brinjal (Eggplant),195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Cucumber,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Carrot,195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thrissur APMC (Sakthan Market),Thrissur,Kerala,Beans (French/Cowpea),195,185,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Tomato,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Banana,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Onion,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Potato,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Green Chilli,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Cabbage,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Brinjal (Eggplant),138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Cucumber,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Carrot,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chalakudy Wholesale Market,Thrissur,Kerala,Beans (French/Cowpea),138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kunnamkulam Market,Thrissur,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Tomato,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Banana,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Onion,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Potato,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Green Chilli,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Cabbage,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Brinjal (Eggplant),191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Cucumber,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Carrot,191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Palakkad Wholesale Mandi,Palakkad,Kerala,Beans (French/Cowpea),191,181,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Tomato,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Banana,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Onion,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Potato,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Green Chilli,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Cabbage,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Brinjal (Eggplant),131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Cucumber,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Carrot,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Ottapalam Agricultural Market,Palakkad,Kerala,Beans (French/Cowpea),131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Tomato,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Banana,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Onion,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Potato,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Green Chilli,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Cabbage,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Brinjal (Eggplant),131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Cucumber,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Carrot,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Chittur Wholesale Market,Palakkad,Kerala,Beans (French/Cowpea),131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Tomato,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Banana,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Onion,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Potato,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Green Chilli,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Cabbage,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Brinjal (Eggplant),186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Cucumber,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Carrot,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Manjeri Wholesale Market,Malappuram,Kerala,Beans (French/Cowpea),186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Malappuram Town Market,Malappuram,Kerala,Tomato,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Banana,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Onion,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Potato,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Green Chilli,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Cabbage,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Brinjal (Eggplant),138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Cucumber,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Carrot,138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Malappuram Town Market,Malappuram,Kerala,Beans (French/Cowpea),138,131,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Tomato,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Banana,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Onion,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Potato,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Green Chilli,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Cabbage,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Brinjal (Eggplant),139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Cucumber,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Carrot,139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Tirur Agricultural Market,Malappuram,Kerala,Beans (French/Cowpea),139,132,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Tomato,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Banana,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Onion,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Potato,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Green Chilli,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Cabbage,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Brinjal (Eggplant),185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Cucumber,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Carrot,185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kozhikode Central Mandi,Kozhikode,Kerala,Beans (French/Cowpea),185,175,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Tomato,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Banana,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Onion,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Potato,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Green Chilli,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Cabbage,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Brinjal (Eggplant),144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Cucumber,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Carrot,144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Vadakara Wholesale Market,Kozhikode,Kerala,Beans (French/Cowpea),144,136,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Tomato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Banana,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Onion,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Potato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Green Chilli,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Cabbage,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Brinjal (Eggplant),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Cucumber,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Carrot,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Koyilandy Agricultural Market,Kozhikode,Kerala,Beans (French/Cowpea),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Tomato,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Banana,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Onion,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Potato,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Green Chilli,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Cabbage,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Brinjal (Eggplant),186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Cucumber,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Carrot,186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kalpetta (Wayanad) Market,Wayanad,Kerala,Beans (French/Cowpea),186,176,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Sulthan Bathery Produce Market,Wayanad,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Tomato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Banana,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Onion,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Potato,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Green Chilli,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Cabbage,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Brinjal (Eggplant),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Cucumber,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Carrot,130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Mananthavady Agricultural Market,Wayanad,Kerala,Beans (French/Cowpea),130,123,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kannur Central Market,Kannur,Kerala,Tomato,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Banana,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Onion,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Potato,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Green Chilli,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Cabbage,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Brinjal (Eggplant),178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Cucumber,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Carrot,178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kannur Central Market,Kannur,Kerala,Beans (French/Cowpea),178,169,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Tomato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Banana,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Onion,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Potato,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Green Chilli,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Cabbage,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Brinjal (Eggplant),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Cucumber,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Carrot,135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Thalassery Wholesale Market,Kannur,Kerala,Beans (French/Cowpea),135,128,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Tomato,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Banana,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Onion,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Potato,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Green Chilli,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Cabbage,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Brinjal (Eggplant),126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Cucumber,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Carrot,126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Payyanur Agricultural Market,Kannur,Kerala,Beans (French/Cowpea),126,119,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Tomato,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Banana,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Onion,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Potato,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Green Chilli,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Cabbage,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Brinjal (Eggplant),180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Cucumber,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Carrot,180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kasaragod Town Market,Kasaragod,Kerala,Beans (French/Cowpea),180,171,2025-10-01,2026-09-30,12 Months (Continuous Series),YES,High Daily Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Tomato,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Banana,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Onion,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Potato,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Green Chilli,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Cabbage,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Brinjal (Eggplant),131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Cucumber,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Carrot,131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Kanhangad Wholesale Market,Kasaragod,Kerala,Beans (French/Cowpea),131,124,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Tomato,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Banana,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Onion,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Potato,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Green Chilli,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Cabbage,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Brinjal (Eggplant),125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Cucumber,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Carrot,125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency
+Nileshwaram Produce Market,Kasaragod,Kerala,Beans (French/Cowpea),125,118,2025-10-01,2026-09-30,12 Months (Continuous Series),MODERATE,Moderate / Weekly Frequency

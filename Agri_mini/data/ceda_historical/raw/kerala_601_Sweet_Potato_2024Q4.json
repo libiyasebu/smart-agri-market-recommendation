@@ -1,0 +1,156 @@
+{
+  "task_id": "s32_d601_Sweet_Potato_2024Q4",
+  "state_id": 32,
+  "district_id": 601,
+  "district_name": "Thiruvananthapuram",
+  "commodity_name": "Sweet Potato",
+  "chunk_label": "2024Q4",
+  "start_date": "2024-10-01",
+  "end_date": "2024-12-31",
+  "retrieval_timestamp": "2026-10-03T15:04:22.646561",
+  "source": "CEDA_AGMARKNET",
+  "api_endpoint": "https://api.ceda.ashoka.edu.in/v1/agmarknet/prices",
+  "record_count": 14,
+  "records": [
+    {
+      "date": "2024-11-16T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 5000
+    },
+    {
+      "date": "2024-11-17T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 4000,
+      "max_price": 5000,
+      "modal_price": 4000
+    },
+    {
+      "date": "2024-11-18T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 7000
+    },
+    {
+      "date": "2024-11-19T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-20T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-21T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-22T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 7000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-23T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-24T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-25T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-26T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-27T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-28T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    },
+    {
+      "date": "2024-11-29T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 601,
+      "market_id": 10329,
+      "min_price": 6000,
+      "max_price": 6000,
+      "modal_price": 6000
+    }
+  ]
+}

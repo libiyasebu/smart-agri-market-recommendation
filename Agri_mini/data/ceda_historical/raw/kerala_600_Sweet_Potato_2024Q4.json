@@ -1,0 +1,36 @@
+{
+  "task_id": "s32_d600_Sweet_Potato_2024Q4",
+  "state_id": 32,
+  "district_id": 600,
+  "district_name": "Kollam",
+  "commodity_name": "Sweet Potato",
+  "chunk_label": "2024Q4",
+  "start_date": "2024-10-01",
+  "end_date": "2024-12-31",
+  "retrieval_timestamp": "2026-10-03T15:04:16.323136",
+  "source": "CEDA_AGMARKNET",
+  "api_endpoint": "https://api.ceda.ashoka.edu.in/v1/agmarknet/prices",
+  "record_count": 2,
+  "records": [
+    {
+      "date": "2024-11-22T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 600,
+      "market_id": 2354,
+      "min_price": 4500,
+      "max_price": 5000,
+      "modal_price": 4800
+    },
+    {
+      "date": "2024-12-30T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 600,
+      "market_id": 2354,
+      "min_price": 4500,
+      "max_price": 5000,
+      "modal_price": 4800
+    }
+  ]
+}

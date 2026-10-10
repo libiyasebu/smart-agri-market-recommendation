@@ -1,0 +1,116 @@
+{
+  "task_id": "s32_d594_Sweet_Potato_2025Q1",
+  "state_id": 32,
+  "district_id": 594,
+  "district_name": "Thrissur",
+  "commodity_name": "Sweet Potato",
+  "chunk_label": "2025Q1",
+  "start_date": "2025-01-01",
+  "end_date": "2025-03-31",
+  "retrieval_timestamp": "2026-10-04T10:01:14.313966",
+  "source": "CEDA_AGMARKNET",
+  "api_endpoint": "https://api.ceda.ashoka.edu.in/v1/agmarknet/prices",
+  "record_count": 10,
+  "records": [
+    {
+      "date": "2025-01-06T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 4000,
+      "max_price": 4500,
+      "modal_price": 4200
+    },
+    {
+      "date": "2025-01-13T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 3900,
+      "max_price": 4200,
+      "modal_price": 4000
+    },
+    {
+      "date": "2025-02-03T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 3500,
+      "max_price": 3800,
+      "modal_price": 3600
+    },
+    {
+      "date": "2025-02-06T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 3800,
+      "max_price": 4200,
+      "modal_price": 3900
+    },
+    {
+      "date": "2025-02-13T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 3000,
+      "max_price": 3500,
+      "modal_price": 3200
+    },
+    {
+      "date": "2025-02-20T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 3200,
+      "max_price": 3500,
+      "modal_price": 3300
+    },
+    {
+      "date": "2025-03-03T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 3400,
+      "max_price": 3800,
+      "modal_price": 3600
+    },
+    {
+      "date": "2025-03-10T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 2600,
+      "max_price": 2900,
+      "modal_price": 2700
+    },
+    {
+      "date": "2025-03-13T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 2500,
+      "max_price": 2800,
+      "modal_price": 2600
+    },
+    {
+      "date": "2025-03-27T00:00:00.000Z",
+      "commodity_id": 152,
+      "census_state_id": 32,
+      "census_district_id": 594,
+      "market_id": 148,
+      "min_price": 2600,
+      "max_price": 2800,
+      "modal_price": 2700
+    }
+  ]
+}
